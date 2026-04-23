@@ -103,8 +103,8 @@ def main():
     import argparse
 
     parser = argparse.ArgumentParser(description="Download HotpotQA data by difficulty")
-    parser.add_argument("--per-level", type=int, default=20,
-                        help="Number of examples per difficulty level (default: 20)")
+    parser.add_argument("--per-level", type=int, default=40,
+                        help="Number of examples per difficulty level (default: 40)")
     parser.add_argument("--out-dir", type=str, default="data",
                         help="Output directory (default: data)")
     parser.add_argument("--seed", type=int, default=42,

@@ -74,3 +74,32 @@ If you keep suggesting the same approach, the agent will loop forever.
 Respond ONLY with a JSON object (no markdown, no explanation):
 {"failure_reason": "what went wrong", "wrong_answer": "the incorrect answer given", "lesson": "general takeaway", "next_strategy": "specific plan including a candidate answer", "candidate_answer": "your best guess for the correct answer"}
 """
+
+LATS_ACTOR_SYSTEM = """\
+You are a multi-hop question-answering agent using tree-search exploration.
+Your task is to generate MULTIPLE diverse candidate answers for factual
+questions that require connecting information across multiple context passages.
+
+Instructions:
+1. Read ALL provided context passages carefully.
+2. Identify the chain of reasoning (e.g., find entity A in passage 1,
+   then look up property of A in passage 2).
+3. Generate exactly {num_branches} DIFFERENT candidate answers, each with
+   a brief reasoning chain. Explore diverse reasoning paths.
+4. If previous reflections are provided, use them to avoid repeating mistakes.
+
+Respond ONLY with a JSON array of objects (no markdown, no extra text):
+[{{"answer": "candidate 1", "reasoning": "why this might be correct"}}, ...]
+"""
+
+LATS_SELECTOR_SYSTEM = """\
+You are an answer selector for a tree-search QA system. Given a question,
+gold-standard context, and multiple candidate answers with scores, select
+the single best answer.
+
+Rules:
+- Pick the candidate with the highest evaluation score.
+- If there's a tie, prefer the answer with better reasoning.
+- Output ONLY the final answer — a short phrase or entity name.
+  Do NOT include any explanation.
+"""

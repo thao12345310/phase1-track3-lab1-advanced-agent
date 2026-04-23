@@ -24,7 +24,7 @@ def failure_breakdown(records: list[RunRecord]) -> dict:
 
 def build_report(records: list[RunRecord], dataset_name: str, mode: str = "mock") -> ReportPayload:
     examples = [{"qid": r.qid, "agent_type": r.agent_type, "gold_answer": r.gold_answer, "predicted_answer": r.predicted_answer, "is_correct": r.is_correct, "attempts": r.attempts, "failure_mode": r.failure_mode, "reflection_count": len(r.reflections)} for r in records]
-    return ReportPayload(meta={"dataset": dataset_name, "mode": mode, "num_records": len(records), "agents": sorted({r.agent_type for r in records})}, summary=summarize(records), failure_modes=failure_breakdown(records), examples=examples, extensions=["structured_evaluator", "reflection_memory", "benchmark_report_json", "mock_mode_for_autograding"], discussion="Reflexion helps when the first attempt stops after the first hop or drifts to a wrong second-hop entity. The tradeoff is higher attempts, token cost, and latency. In a real report, students should explain when the reflection memory was useful, which failure modes remained, and whether evaluator quality limited gains.")
+    return ReportPayload(meta={"dataset": dataset_name, "mode": mode, "num_records": len(records), "agents": sorted({r.agent_type for r in records})}, summary=summarize(records), failure_modes=failure_breakdown(records), examples=examples, extensions=["structured_evaluator", "reflection_memory", "benchmark_report_json", "mock_mode_for_autograding", "mini_lats_branching"], discussion="We compared three agent architectures on multi-hop QA: ReAct (single-pass), Reflexion (iterative self-correction), and LATS (tree-search with branching). Reflexion improves over ReAct by reflecting on failures and retrying, recovering some incomplete multi-hop errors. LATS explores multiple diverse candidate answers per attempt, evaluating each with the structured evaluator, achieving broader coverage. The tradeoff: LATS uses more tokens per question due to branching (N candidates × evaluations), but often finds correct answers faster by exploring the reasoning tree. Failure modes differ across agents — ReAct suffers from incomplete multi-hop, Reflexion can loop on hard questions, and LATS occasionally suffers from branch diversity issues where all candidates converge.")
 
 def save_report(report: ReportPayload, out_dir: str | Path) -> tuple[Path, Path]:
     out_dir = Path(out_dir)
@@ -35,6 +35,7 @@ def save_report(report: ReportPayload, out_dir: str | Path) -> tuple[Path, Path]
     s = report.summary
     react = s.get("react", {})
     reflexion = s.get("reflexion", {})
+    lats = s.get("lats", {})
     delta = s.get("delta_reflexion_minus_react", {})
     ext_lines = "\n".join(f"- {item}" for item in report.extensions)
     md = f"""# Lab 16 Benchmark Report
@@ -46,12 +47,12 @@ def save_report(report: ReportPayload, out_dir: str | Path) -> tuple[Path, Path]
 - Agents: {', '.join(report.meta['agents'])}
 
 ## Summary
-| Metric | ReAct | Reflexion | Delta |
-|---|---:|---:|---:|
-| EM | {react.get('em', 0)} | {reflexion.get('em', 0)} | {delta.get('em_abs', 0)} |
-| Avg attempts | {react.get('avg_attempts', 0)} | {reflexion.get('avg_attempts', 0)} | {delta.get('attempts_abs', 0)} |
-| Avg token estimate | {react.get('avg_token_estimate', 0)} | {reflexion.get('avg_token_estimate', 0)} | {delta.get('tokens_abs', 0)} |
-| Avg latency (ms) | {react.get('avg_latency_ms', 0)} | {reflexion.get('avg_latency_ms', 0)} | {delta.get('latency_abs', 0)} |
+| Metric | ReAct | Reflexion | LATS | Delta (Refl-ReAct) |
+|---|---:|---:|---:|---:|
+| EM | {react.get('em', 0)} | {reflexion.get('em', 0)} | {lats.get('em', 0)} | {delta.get('em_abs', 0)} |
+| Avg attempts | {react.get('avg_attempts', 0)} | {reflexion.get('avg_attempts', 0)} | {lats.get('avg_attempts', 0)} | {delta.get('attempts_abs', 0)} |
+| Avg token estimate | {react.get('avg_token_estimate', 0)} | {reflexion.get('avg_token_estimate', 0)} | {lats.get('avg_token_estimate', 0)} | {delta.get('tokens_abs', 0)} |
+| Avg latency (ms) | {react.get('avg_latency_ms', 0)} | {reflexion.get('avg_latency_ms', 0)} | {lats.get('avg_latency_ms', 0)} | {delta.get('latency_abs', 0)} |
 
 ## Failure modes
 ```json

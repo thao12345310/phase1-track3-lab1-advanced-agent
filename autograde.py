@@ -7,7 +7,7 @@ app = typer.Typer(add_completion=False)
 REQUIRED_KEYS = ["meta", "summary", "failure_modes", "examples", "extensions", "discussion"]
 
 @app.command()
-def main(report_path: str = "outputs/sample_run/report.json") -> None:
+def main(report_path: str = "outputs/full_run_v3/report.json") -> None:
     path = Path(report_path)
     if not path.exists():
         raise typer.BadParameter(f"Missing report file: {path}")

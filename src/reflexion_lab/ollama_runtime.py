@@ -13,7 +13,10 @@ from typing import Any
 
 import requests
 
-from .prompts import ACTOR_SYSTEM, ACTOR_SYSTEM_WITH_COT, EVALUATOR_SYSTEM, REFLECTOR_SYSTEM
+from .prompts import (
+    ACTOR_SYSTEM, ACTOR_SYSTEM_WITH_COT, EVALUATOR_SYSTEM, REFLECTOR_SYSTEM,
+    LATS_ACTOR_SYSTEM, LATS_SELECTOR_SYSTEM,
+)
 from .schemas import JudgeResult, QAExample, ReflectionEntry
 from .structured_evaluator import StructuredEvalResult, structured_evaluate
 from .utils import normalize_answer
@@ -415,3 +418,90 @@ def classify_failure(
         return "incomplete_multi_hop"
 
     return "wrong_final_answer"
+
+
+# ---------------------------------------------------------------------------
+# LATS branching actor — generates multiple diverse candidate answers
+# ---------------------------------------------------------------------------
+def lats_branch_actor(
+    example: QAExample,
+    attempt_id: int,
+    reflection_memory: list[str],
+    previous_answers: list[str] | None = None,
+    num_branches: int = 3,
+) -> tuple[list[dict[str, str]], int, int]:
+    """Generate multiple candidate answers for tree-search.
+
+    Returns (candidates_list, total_tokens, total_latency_ms).
+    Each candidate is {"answer": "...", "reasoning": "..."}.
+    """
+    context_text = "\n\n".join(
+        f"### {c.title}\n{c.text}" for c in example.context
+    )
+
+    reflection_block = ""
+    if reflection_memory:
+        reflection_block = (
+            "\n\n--- Previous Reflections ---\n"
+            + "\n".join(f"- {r}" for r in reflection_memory)
+            + "\n--- End Reflections ---\n"
+        )
+
+    wrong_answers_block = ""
+    if previous_answers:
+        wrong_answers_block = (
+            "\n--- Previous Wrong Answers (DO NOT repeat these) ---\n"
+            + "\n".join(f"- {a}" for a in previous_answers)
+            + "\n--- End Wrong Answers ---\n"
+        )
+
+    system_prompt = LATS_ACTOR_SYSTEM.format(num_branches=num_branches)
+    user_prompt = (
+        f"Question: {example.question}\n\n"
+        f"Context:\n{context_text}"
+        f"{reflection_block}"
+        f"{wrong_answers_block}\n\n"
+        f"Attempt: {attempt_id}\n"
+        f"Generate exactly {num_branches} diverse candidate answers.\n"
+        "Respond ONLY with a JSON array."
+    )
+
+    # Use higher temperature for diversity in branching
+    temp = 0.5 + (attempt_id - 1) * 0.15
+    result = _chat(system_prompt, user_prompt, temperature=min(temp, 0.8))
+
+    candidates = _parse_lats_candidates(result["content"], num_branches)
+    return candidates, result["tokens"], result["latency_ms"]
+
+
+def _parse_lats_candidates(raw: str, num_branches: int) -> list[dict[str, str]]:
+    """Parse the LATS actor's JSON array of candidates."""
+    # Try to find JSON array in the response
+    json_match = re.search(r"\[.*\]", raw, re.DOTALL)
+    if json_match:
+        try:
+            data = json.loads(json_match.group())
+            if isinstance(data, list):
+                candidates = []
+                for item in data[:num_branches]:
+                    if isinstance(item, dict):
+                        answer = _clean_answer(str(item.get("answer", "")))
+                        reasoning = str(item.get("reasoning", ""))
+                        if answer:
+                            candidates.append({
+                                "answer": answer,
+                                "reasoning": reasoning,
+                            })
+                if candidates:
+                    return candidates
+        except (json.JSONDecodeError, ValueError, TypeError):
+            pass
+
+    # Fallback: try to extract individual answers from text
+    lines = [l.strip() for l in raw.split("\n") if l.strip()]
+    candidates = []
+    for line in lines:
+        cleaned = _clean_answer(line)
+        if cleaned and len(cleaned) < 100:
+            candidates.append({"answer": cleaned, "reasoning": "extracted from text"})
+    return candidates[:num_branches] if candidates else [{"answer": raw.strip()[:50], "reasoning": "fallback"}]

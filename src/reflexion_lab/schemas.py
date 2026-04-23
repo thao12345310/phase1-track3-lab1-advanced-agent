@@ -40,7 +40,7 @@ class RunRecord(BaseModel):
     qid: str
     question: str
     gold_answer: str
-    agent_type: Literal["react", "reflexion"]
+    agent_type: Literal["react", "reflexion", "lats"]
     predicted_answer: str
     is_correct: bool
     attempts: int

@@ -2,102 +2,6 @@
   {
     "qid": "he1",
     "difficulty": "easy",
-    "question": "The Royal Commission into Drug Trafficking (1977–1979) or Woodward Royal Commission was a royal commission initiated by the New South Wales Government to investigate drug trafficking in New South Wales, Australia, especially links between the New South Wales Police and Mafia, The Honoured Society, is a Calabrian 'Ndrangheta criminal confederation, started in Melbourne and currently active in all of which country?",
-    "gold_answer": "Australia",
-    "context": [
-      {
-        "title": "List of Commissioners of New South Wales Police",
-        "text": "The Commissioner of the New South Wales Police Force (Known from 1851 to 1926 as the Inspector-General of the New South Wales Police Force) is the head of New South Wales's Police Force.  The post is currently held by Mick Fuller, who replaced Andrew Scipione on 31 March 2017.  The rank is usually referred to as the New South Wales Police Commissioner or simply just \"Commissioner\".  The New South Wales Police Force has had 22 Commissioners since 1851."
-      },
-      {
-        "title": "Royal Commission into Drug Trafficking",
-        "text": "The Royal Commission into Drug Trafficking (1977–1979) or Woodward Royal Commission was a royal commission initiated by the New South Wales Government to investigate drug trafficking in New South Wales, Australia, especially links between the Mafia and New South Wales Police and the disappearance of anti-marijuana campaigner Donald Mackay."
-      },
-      {
-        "title": "New South Wales Police Force",
-        "text": "The New South Wales Police Force (NSW Police Force; previously the New South Wales Police Service and New South Wales Police) is the primary law enforcement agency of the state of New South Wales, Australia.  It is a servant of the Crown, independent of Government, although a minister of the Crown has administration.  Divided into seventy six local area commands (LAC), the NSW Police Force consists of more than 500 local police stations and covers an area of 801,600 square kilometres in a state of some seven million people."
-      },
-      {
-        "title": "Kennedy Royal Commission",
-        "text": "The Royal commission into whether there has been corrupt or criminal conduct by any Western Australian Police Officer, commonly known as the Kennedy Royal Commission, was a Royal Commission established in 2002 by the state government of Western Australia to determine whether any officer of the Western Australia Police had engaged in corrupt or criminal conduct.  The commission issued an interim report on 20 December 2002 and a final report on 30 January 2004."
-      }
-    ]
-  },
-  {
-    "qid": "he2",
-    "difficulty": "easy",
-    "question": "Dua Lipa, an English singer, songwriter and model, the album spawned the number-one single \"New Rules\" is a song by English singer Dua Lipa from her eponymous debut studio album, released in what year?",
-    "gold_answer": "2017",
-    "context": [
-      {
-        "title": "Last Dance (Dua Lipa song)",
-        "text": "\"Last Dance\" is a song by English singer Dua Lipa from her eponymous debut studio album (2017).  Lipa wrote the song with Stephen \"Koz\" Kozmeniuk and Talay Riley, with Kozmeniuk handling the song's production.  It was released on 9 February 2016 as the album's second single.  The track appears on the deluxe edition of \"Dua Lipa\".  It peaked at number four on the \"Billboard\" Twitter Emerging Artists chart, spending seven weeks on it."
-      },
-      {
-        "title": "Dua Lipa",
-        "text": "Dua Lipa ( ; ] ; born 22 August 1995) is an English singer, songwriter and model.  Her musical career began at age 16, when she began covering songs by other artists on YouTube.  In 2015, she was signed with Warner Music Group, and released her first single soon after.  In December 2016, a documentary about Lipa was commissioned by \"The Fader\" magazine, titled \"See in Blue\".  In January 2017, she won the EBBA Public Choice Award.  Her self-titled debut studio album was released on 2 June 2017.  The album spawned seven singles, including the top-10 single \"Be the One\" and the number-one single \"New Rules\"."
-      },
-      {
-        "title": "Lost in Your Light",
-        "text": "\"Lost in Your Light\" is a song by English singer Dua Lipa, featuring American singer Miguel.  The song was released on 21 April 2017 as the fifth single from Lipa's eponymous debut studio album.  It was released as an instant-grat track to those who pre-ordered the song on the iTunes Store.  The song was written by Lipa, Miguel, and Rick Nowels, while production was handled by Miguel and Stephen \"Koz\" Kozmeniuk.  The accompanying music video, directed by Henry Schofield, was filmed in Los Angeles and premiered on 26 May 2017."
-      },
-      {
-        "title": "Be the One (Dua Lipa song)",
-        "text": "\"Be the One\" is a song by English singer Dua Lipa from her eponymous debut studio album (2017).  It was written by Lucy Taylor, Digital Farm Animals and Jack Tarrant, and produced by Digital Farm Animals.  The song was released on 30 October 2015 as the album's lead single."
-      }
-    ]
-  },
-  {
-    "qid": "he3",
-    "difficulty": "easy",
-    "question": "The 337th Flight Test Squadron (337 FLTS) was most recently part of the 46th Test Wing and based at McClellan Air Force Base, a former United States Air Force base located in the North Highlands area of Sacramento County, in which US state?",
-    "gold_answer": "California",
-    "context": [
-      {
-        "title": "46th Operations Group",
-        "text": "The 46th Operations Group was a component of the United States Air Force 46th Test Wing assigned to Eglin Air Force Base, Florida.  It was inactivated on 1 October 2012, and its functions consolidated under the 96th Test Wing at Eglin Air Force Base, Florida"
-      },
-      {
-        "title": "46th Test Wing",
-        "text": "The 46th Test Wing is an inactive wing of the United States Air Force last based at Eglin Air Force Base, Florida.  The wing's 46th Test Group was a tenant unit at Holloman Air Force Base, New Mexico."
-      },
-      {
-        "title": "46th Test Group",
-        "text": "The 46th Test Group was a United States Air Force unit active from 1992 to 2012.  It was last active with 46th Test Wing, at Eglin Air Force Base, Florida.  The 46th Test Group was stationed as a tenant unit at Holloman Air Force Base, New Mexico, throughout its existence.  It was inactivated on 18 July 2012, being replaced by the 96th Test Group in an administrative reorganization."
-      },
-      {
-        "title": "486th Flight Test Squadron",
-        "text": "The 486th Flight Test Squadron is a secretive unit, with a somewhat misleading designation, assigned to Eglin Air Force Base, Florida, and which is associated with United States Department of State Foreign Emergency Support Team activities.  The squadron motto is \"\"Non semper ea sunt quae videntur\"\" which translates as \"Not always what they seem\".  It was apparently assigned to the 227th Special Operations Flight, later redesignated the 150th Special Operations Squadron, McGuire Air Force Base, New Jersey, but is currently assigned to the 46th Test Wing at Eglin, and operates a pair of Boeing C-32B or Boeing 757-23A aircraft, on stand-by alert for special operations and intelligence missions world-wide.  Official documents make it clear that operations fall under the aegis of Air Force Special Operations Command."
-      }
-    ]
-  },
-  {
-    "qid": "he4",
-    "difficulty": "easy",
-    "question": "What man, also known as mi Sde-Or, created a military self-defense system developed for the Israel Defense Forces?",
-    "gold_answer": "Emrich \"Imi\" Lichtenfeld",
-    "context": [
-      {
-        "title": "Imi Lichtenfeld",
-        "text": "Emrich \"Imi\" Lichtenfeld (May 26, 1910 – January 9, 1998) was a Hungarian-born Israeli martial artist who founded the Krav Maga self-defense system.  He was also known as Imi Sde-Or, the Hebrew calque of his surname."
-      },
-      {
-        "title": "AIL M325 Command Car",
-        "text": "The AIL M325 Command Car is a 4x4 military truck produced by the Automotive Industries Limited (AIL) of Nazareth in Israel from 1970 to 1993 for use by the Israel Defense Forces.  The M325 is a light, versatile truck designed for carrying up to 12 troops and radio equipment while being fitted with up to four 7.62 mm machine guns.  Mechanically, it is based on the Dodge Power Wagon, which it succeeded in service for the Israel Defense Forces."
-      },
-      {
-        "title": "IDF Caterpillar D9",
-        "text": "The Israeli Armored CAT D9—nicknamed \"Doobi\" (Hebrew: דובי‎ ‎ , for teddy bear)—is a Caterpillar D9 armored bulldozer that was modified by the Israel Defense Forces, Israeli Military Industries and Israel Aerospace Industries to increase the survivability of the bulldozer in hostile environments and enable it to withstand heavy attacks, thus making it suitable for military combat engineering use.  The IDF Caterpillar D9 is operated by the Israel Defense Forces (IDF) Combat Engineering Corps for combat engineering and counter-terrorism operations."
-      },
-      {
-        "title": "Krav Maga",
-        "text": "Krav Maga ( ; Hebrew: קְרַב מַגָּע‎ ] , \"lit.\"  \"contact-combat\") is a military self-defense system developed for the Israel Defense Forces (IDF) and Israeli security forces (Shin Bet and Mossad) that consists of a combination of techniques sourced from Boxing, Wrestling, Aikido, Judo, Karate along with realistic fight training.  Krav Maga is known for its focus on real-world situations and its extreme efficiency and brutal counter-attacks.  It was derived from the street-fighting experience of Hungarian-Israeli martial artist Imi Lichtenfeld, who made use of his training as a boxer and wrestler as a means of defending the Jewish quarter against fascist groups in Bratislava, Czechoslovakia in the mid-to-late 1930s.  In the late 1940s, following his migration to Israel, he began to provide lessons on combat training to what was to become the IDF."
-      }
-    ]
-  },
-  {
-    "qid": "he5",
-    "difficulty": "easy",
     "question": "Throne of Glass is a young adult high fantasy novel series, by which bestselling American fantasy author?",
     "gold_answer": "Sarah Janet Maas",
     "context": [
@@ -120,127 +24,7 @@
     ]
   },
   {
-    "qid": "he6",
-    "difficulty": "easy",
-    "question": "Which private research university is located in Chestnut Hill, Massachusetts Boston College or Stanford University?",
-    "gold_answer": "Boston College",
-    "context": [
-      {
-        "title": "Chestnut Hill West station",
-        "text": "Chestnut Hill West station is a SEPTA Regional Rail station in Philadelphia, Pennsylvania.  Located at 9 West Evergreen Avenue in the Chestnut Hill neighborhood, it serves the Chestnut Hill West Line.  It was originally built by the Philadelphia, Germantown and Chestnut Hill Railroad between 1883 and 1884, and later acquired by the Pennsylvania Railroad.  In 1918, when the line was electrified, the station was rebuilt to accommodate the upgrade."
-      },
-      {
-        "title": "List of Boston College Eagles football seasons",
-        "text": "The Boston College Eagles college football team competes as part of the National Collegiate Athletic Association (NCAA) Division I Football Bowl Subdivision, representing Boston College in the Atlantic Division of the Atlantic Coast Conference (ACC).  Boston College has played their home games at Alumni Stadium in Chestnut Hill, Massachusetts since 1957.  Boston College claims one national championship in 1940, though the NCAA doesn't recognize it, and have played in 22 Bowl Games, winning 13.  With 626 wins over 120 seasons of football, Boston College ranks 51st all-time in win-loss records in the NCAA.  Boston College played as an Independent until joining the Big East Conference in 1991.  Boston College later joined the Atlantic Coast Conference in 2005."
-      },
-      {
-        "title": "Chestnut Hill (Leesburg, Virginia)",
-        "text": "Chestnut Hill is an 18th-century Federal-style mansion north of Leesburg in Loudoun County, Virginia, United States.  Chestnut Hill was a home of Thomson Francis Mason (1785–21 December 1838), a prominent jurist, lawyer, councilman, judge, mayor of Alexandria, and grandson of Founding Father of the United States George Mason.  Chestnut Hill was also a home of Mason's son, Dr. John \"Frank\" Francis Mason (28 August 1828–4 August 1897).  It is located at 13263 Chestnut Hill Lane near Leesburg."
-      },
-      {
-        "title": "Old Chestnut Hill Historic District",
-        "text": "The Old Chestnut Hill Historic District encompasses the historic residential heart of the Newton portion of Chestnut Hill, Massachusetts.  When first listed on the National Register of Historic Places in 1986, the district extended along Hammond Street, between Beacon Street and the MBTA Green Line right-of-way, and along Chestnut Hill Road between Hammond and Essex, including properties along a few adjacent streets.  The district was expanded in 1990 to include more of Chestnut Hill Road and Essex Road, Suffolk Road and the roads between it and Hammond, and a small section south of the Green Line including properties on Hammond Street, Longwood Road, and Middlesex Road.  A further expansion in 1999 added a single property on Suffolk Road."
-      }
-    ]
-  },
-  {
-    "qid": "he7",
-    "difficulty": "easy",
-    "question": "Hot Coffee, Mississippi sometimes shares a zipcode with a nearby city with what population at the 2010 census?",
-    "gold_answer": "2,586",
-    "context": [
-      {
-        "title": "Wilkes-Barre, Pennsylvania",
-        "text": "Wilkes-Barre ( or ) is a city in the Commonwealth of Pennsylvania and the county seat of Luzerne County.  It is one of the principal cities in the \"Scranton–Wilkes-Barre–Hazleton, PA Metropolitan Statistical Area\".  Located at the center of the Wyoming Valley, it is second in size to the nearby city of Scranton.  The Scranton–Wilkes-Barre–Hazleton, PA Metropolitan Statistical Area had a population of 563,631 as of the 2010 Census, making it the fourth-largest metro/statistical area in the state of Pennsylvania.  Wilkes-Barre and the surrounding Wyoming Valley are framed by the Pocono Mountains to the east, the Endless Mountains to the west, and the Lehigh Valley to the south.  The Susquehanna River flows through the center of the valley and defines the northwestern border of the city."
-      },
-      {
-        "title": "Lynd, Minnesota",
-        "text": "Lynd is a city in Lyon County, Minnesota, United States.  The population was 448 at the 2010 census.  Lynd is a small but growing community in southwestern Minnesota.  The development of a new golf course and an additional housing development have started a growth trend that may eventually double the size of the community.  It is primarily a bedroom community for individuals who work in the nearby city of Marshall.  Despite being much smaller in size, it historically played a more significant role in the area.  The Kiel and Morgan Hotel in the town was the original Lyon County seat."
-      },
-      {
-        "title": "Carencro, Louisiana",
-        "text": "Carencro ( ; historically French: \"St.-Pierre\" ) is a small city in Lafayette Parish, Louisiana.  It is a suburb of the nearby city of Lafayette.  The population was 7,526 at the 2010 census, up from 6,120 at the 2000 census.  Its name comes from the Cajun French word for buzzard: the spot was one where large flocks of buzzards roosted in the bald cypress trees.  The name means \"carrion crow.\""
-      },
-      {
-        "title": "Burns, Oregon",
-        "text": "Burns is a city in and the county seat of Harney County, in the U.S. state of Oregon.  According to the 2010 census, the population was 2,806.  Burns and the nearby city of Hines are home to about 60 percent of the people in the sparsely populated county, the largest in Oregon and the ninth largest in the United States."
-      }
-    ]
-  },
-  {
-    "qid": "he8",
-    "difficulty": "easy",
-    "question": "an Emmy Award winner and two-time Tony Award winner, was on the episode 15 of the third season of \"Chuck\". what is her name ?",
-    "gold_answer": "Swoosie Kurtz",
-    "context": [
-      {
-        "title": "Jane Alexander",
-        "text": "Jane Alexander (born October 28, 1939) is an American author, actress and former director of the National Endowment for the Arts.  She is a Tony Award winner and two-time Emmy Award winner."
-      },
-      {
-        "title": "Rafael Bello",
-        "text": "Rafael Emilio Bello Castro, known professionally as Rafael Bello (pronounced Rafael \"BE-YO\"), is a Dominican television and radio personality based in New York City.  Bello, a two-time Emmy award winner, currently serves as the Weather and Entertainment Anchor in \"Al Despertar\", WXTV WXTV-DT Univision 41 Nueva York' early morning newscast.  Bello formerly served as the Traffic and Entertainment Anchor on WNJU Telemundo 47 in \"Noticiero 47 Primera Edicion\" and also hosted feature and entertainment segments including his Emmy Award winner for best entertainment segment under the name \"Pa la Calle con Rafa\"."
-      },
-      {
-        "title": "Chuck Versus the Role Models",
-        "text": "\"Chuck Versus the Role Models\" is episode 15 of the third season of \"Chuck\".  Chuck and Sarah are assigned to train under Craig and Laura Turner (Fred Willard and Swoosie Kurtz), a married CIA team who, despite their impeccable record, hate one another.  The Turners' stormy relationship forces Chuck and Sarah to wonder if they're doomed with the same fate.  Meanwhile, Casey must train the newest member of the team - Morgan."
-      },
-      {
-        "title": "Patti LuPone",
-        "text": "Patti Ann LuPone (born April 21, 1949) is an American actress and singer, best known for her work in stage musicals.  She is a two-time Grammy Award winner and a two-time Tony Award winner.  She is also a 2006 American Theater Hall of Fame inductee."
-      }
-    ]
-  },
-  {
-    "qid": "he9",
-    "difficulty": "easy",
-    "question": "American politician Joe Heck ran unsuccessfully against Democrat Catherine Cortez Masto, a woman who previously served as the 32nd Attorney General of where?",
-    "gold_answer": "Nevada",
-    "context": [
-      {
-        "title": "Kamala Harris",
-        "text": "Kamala Devi Harris ( , ; born October 20, 1964) is an American attorney and politician.  A member of the Democratic Party, she currently serves as the junior senator from California.  She previously served as the 32nd Attorney General of California."
-      },
-      {
-        "title": "Maryland Attorney General election, 2014",
-        "text": "The Maryland Attorney General election of 2014 was held on November 4, 2014, to elect the Attorney General of Maryland.  Incumbent Democratic Attorney General Doug Gansler was eligible to seek a third term in office, but instead ran unsuccessfully for the Democratic nomination for Governor of Maryland."
-      },
-      {
-        "title": "Corey Palumbo",
-        "text": "Corey Lee Palumbo (born August 16, 1972) is a West Virginia State Senator representing the 17th district in the West Virginia Senate.  A state senator since 2009, he previously served as a member of the West Virginia House of Delegates from 2003 to 2009.  He is the son of Mario Palumbo, the 32nd Attorney General of West Virginia as well as a former five-term state senator."
-      },
-      {
-        "title": "Catherine Cortez Masto",
-        "text": "Catherine Marie Cortez Masto (born March 29, 1964) is an American attorney and politician who is the junior United States Senator from Nevada.  She is a member of the Democratic Party.  She previously served as the 32nd Attorney General of Nevada from 2007 to 2015."
-      }
-    ]
-  },
-  {
-    "qid": "he10",
-    "difficulty": "easy",
-    "question": "he Central Harbourfront is a waterfront site it is the result of Central and Wan Chai Reclamation, and it sits to the east of the International Finance Centre (IFC), a skyscraper and an integrated commercial development on the waterfront of the Central District, of which territory?",
-    "gold_answer": "Hong Kong",
-    "context": [
-      {
-        "title": "Central–Wan Chai Bypass",
-        "text": "The Central–Wan Chai Bypass is a four-kilometre trunk road, currently under construction, running between Sheung Wan and Fortress Hill on Hong Kong Island.  The original design consists of a 2.3 km dual three-lane tunnel running under new reclamation areas which will be provided by Central and Wan Chai Reclamation project, and also connections to Connaught Road West flyover and Island Eastern Corridor.  When completed, it will substitute Connaught Road Central, Harcourt Road, Gloucester Road and Victoria Park Road to be part of Route 4."
-      },
-      {
-        "title": "Wan Chai District Council",
-        "text": "Wan Chai District Council () is the district council for the Wan Chai District in Hong Kong.  It is one of 18 district councils.  Wan Chai District currently consists of 13 members, of which the district is divided into 13 constituencies, electing a total of 13 members.  The latest election was held on 22 November 2015."
-      },
-      {
-        "title": "Wan Chai",
-        "text": "Wan Chai ( ) is a metropolitan area situated at the western part of the Wan Chai District on the northern shore of Hong Kong Island, in Hong Kong.  Its other boundaries are Canal Road to the east, Arsenal Street to the west and Bowen Road to the south.  The area north of Gloucester Road is often referred to as Wan Chai North.  Wan Chai is one of the busiest commercial areas in Hong Kong with offices of many small and medium-sized companies.  Wan Chai North features office towers, parks, hotels and an international conference and exhibition centre.  As one of the first areas developed in Hong Kong, the locale is densely populated yet with noticeable residential zones facing urban decay.  Arousing considerable public concern, the government has undertaken several urban renewal projects in recent years.  There are many unique landmarks and skyscrapers within the area, most notably the Hong Kong Convention and Exhibition Centre (HKCEC), Central Plaza and Hopewell Centre."
-      },
-      {
-        "title": "Wan Chai Cargo Handling Basin",
-        "text": "The Wan Chai Cargo Handling Basin () is situated in Wan Chai, Hong Kong Island, Hong Kong.  A prime site along Victoria Harbour, it is adjacent to the Wan Chai Sports Ground and located between the Hong Kong Convention and Exhibition Centre and the Royal Hong Kong Yacht Club.  The site has been earmarked under the Central and Wan Chai Reclamation project for the construction of a highway linking Central with Causeway Bay, aimed at easing traffic congestion along the northern coast of Hong Kong Island."
-      }
-    ]
-  },
-  {
-    "qid": "he11",
+    "qid": "he2",
     "difficulty": "easy",
     "question": "South Korean actor Kim Yool-ho starred in what 2016 movie directed by Yeon Sang-ho Yeon Sang-ho and starring actors Gong Yoo, Jung Yu-mi, and Ma Dong-seok?",
     "gold_answer": "Train to Busan",
@@ -264,7 +48,31 @@
     ]
   },
   {
-    "qid": "he12",
+    "qid": "he3",
+    "difficulty": "easy",
+    "question": "Donington School F.C. was an English football club, based in which large village and civil parish in the South Holland district of Lincolnshire, England?",
+    "gold_answer": "Donington, Lincolnshire",
+    "context": [
+      {
+        "title": "Lutton, Lincolnshire",
+        "text": "Lutton (sometimes Lutton-Bourne) is a village and civil parish in the South Holland district of Lincolnshire, England.  The population of the civil parish at the 2011 census was 1,261.  It is situated about 4 mi south-east from the town of Holbeach.  The village has been known by the alternative name of Sutton St Nicholas.  The civil parish comprises the village of Lutton, with Lutton Marsh to the north-east and Lutton Garnsgate to the south-west."
+      },
+      {
+        "title": "Quadring Eaudike",
+        "text": "Quadring Eaudike is a hamlet in the South Holland district of Lincolnshire, England.  It lies approximately 1 mi east from the A152 road, and 2 mi south-east from Donington.  Quadring Eaudike is within the civil parish of Quadring , a village 1 mile to the west."
+      },
+      {
+        "title": "Donington School F.C.",
+        "text": "Donington School F.C. was an English football club, based in Donington, Lincolnshire.  The club represented the Donington Grammar School, and entered in the first ever FA Cup in 1871–72 but did not compete in a match."
+      },
+      {
+        "title": "Quadring",
+        "text": "Quadring is a small village and civil parish in the South Holland district of Lincolnshire, England.  It lies on the A152, 2 mi north-east from Gosberton, and 2 miles south-east from Donington."
+      }
+    ]
+  },
+  {
+    "qid": "he4",
     "difficulty": "easy",
     "question": "Which faith is designated to the University of Providence, private university accredited by the NW association of Schools and Colleges and located in a third largest city in Montana after being passed by Missoula?",
     "gold_answer": "Roman Catholic",
@@ -288,7 +96,247 @@
     ]
   },
   {
+    "qid": "he5",
+    "difficulty": "easy",
+    "question": "Roger Avary (born August 23, 1965) is a Canadian film and television producer, screenwriter and director in the American mass media industry, he wrote the screenplay for Beowulf, a 2007 British-American 3D motion capture epic fantasy film, directed by who?",
+    "gold_answer": "Robert Zemeckis",
+    "context": [
+      {
+        "title": "Beowulf (2007 film)",
+        "text": "Beowulf is a 2007 British-American 3D motion capture epic fantasy film directed by Robert Zemeckis and written by Neil Gaiman and Roger Avary, based on the Old English epic poem of the same name.  The film was created through a motion capture process similar to the technique Zemeckis used in \"The Polar Express\".  The cast includes Ray Winstone, Anthony Hopkins, Robin Wright Penn, Brendan Gleeson, John Malkovich, Crispin Glover, Alison Lohman, and Angelina Jolie.  It was released in the United Kingdom and United States on November 16, 2007, by Paramount Pictures and Warner Bros.  Pictures, and was available to view in IMAX 3D, RealD, Dolby 3D and standard 2D format.  The film received positive reviews from critics and it earned $196.4 million on a $150 million budget."
+      },
+      {
+        "title": "Dreams on Spec",
+        "text": "Dreams on Spec is a 2007 American documentary film that profiles the struggles and triumphs of emerging Hollywood screenwriters.  It was written and directed by Daniel J. Snyder, who learned first-hand about the screenwriter's travails in the late 1980s when he was a teenager working alongside aspiring writer/directors Quentin Tarantino and Roger Avary in the famed Video Archives video store in Manhattan Beach, California."
+      },
+      {
+        "title": "Braddon Mendelson",
+        "text": "Braddon Mendelson is a producer, director and writer who was named as a defendant in the Rosa Parks v. LaFace Records lawsuit, but was subsequently dismissed from the case by the presiding judge.  As a music video producer, Mendelson worked with some of the top R&B and Rap artists of the late 1990s, including Xzibit, Outkast, Bizzy Bone, Mo Thugs and Ice Cube.  In 1997 he produced the feature film \"Boogie Boy\".  The film was directed by Craig Hamann and Executive Produced by Academy Award winner Roger Avary, who were both collaborators on Quentin Tarantino's first film \"My Best Friend's Birthday.\""
+      },
+      {
+        "title": "Raymond Dokpesi",
+        "text": "Raymond Anthony Aleogho Dokpesi is a Nigerian media businessman born in 1951 in Ibadan, Nigeria.  His parents are from Agenebode, Edo state in a family including six sisters siblings.  He entered the Nigerian mass media industry with his company DAAR Communications and set-up the Nigerian TV network Africa Independent Television (AIT) He was the organising committee chairman of the People's Democratic Party national conference in 2015."
+      }
+    ]
+  },
+  {
+    "qid": "he6",
+    "difficulty": "easy",
+    "question": "Iqaluit Airport and Canadian North are based out of what country?",
+    "gold_answer": "Canada",
+    "context": [
+      {
+        "title": "Iqaluit Airport",
+        "text": "Iqaluit Airport (IATA: YFB, ICAO: CYFB) serves Iqaluit, Nunavut, Canada and is located adjacent to the town.  It is operated by the government of Nunavut.  It hosts scheduled passenger service from Ottawa, Montreal, Rankin Inlet and Kuujjuaq on carriers such as First Air and Canadian North, and from smaller communities throughout eastern Nunavut.  It is also used as a forward operating base by the CF-18 Hornet.  In 2011, the terminal handled more than 120,000 passengers."
+      },
+      {
+        "title": "Frobisher Bay Air Base",
+        "text": "Frobisher Bay Air Base is a former United States Air Force facility adjacent to the then town of Frobisher Bay, Northwest Territories (now Iqaluit, Nunavut); 1299 mi north of Ottawa, Ontario.  It was closed in 1963 and became a civilian airport Frobisher Bay Airport (Iqaluit Airport since 1987)."
+      },
+      {
+        "title": "Lawren Harris",
+        "text": "Lawren Stewart Harris, CC (October 23, 1885 – January 29, 1970) was a Canadian painter.  He was born in Brantford, Ontario, and is best known as a member of the Group of Seven who pioneered a distinctly Canadian painting style in the early twentieth century.  A. Y. Jackson has been quoted as saying that Harris provided the stimulus for the Group of Seven.  During the 1920s, Harris's works became more abstract and simplified, especially his stark landscapes of the Canadian north and Arctic.  He also stopped signing and dating his works so that people would judge his works on their own merit and not by the artist or when they were painted.  In 1969, he was made a Companion of the Order of Canada."
+      },
+      {
+        "title": "Frank Wolf (adventurer)",
+        "text": "Frank Wolf (born 1970) is a Canadian adventurer, filmmaker, writer and environmentalist.  He is known for films, feature magazine articles, and online columns that document wilderness expeditions around the world, with a focus on the Canadian North.  His expeditions include being the first to canoe across Canada in one season and cycling 2,000 km in winter on the Yukon River from Dawson to Nome.  His films include \"Wild Ones\", \"The Hand of Franklin\", \"Kitturiaq\", \"On the Line\", \"Mammalian\", and \"Borealis\", all of which broadcast on CBC's \"documentary \"channel in Canada.  In 2012 he was named one of Canada's Top Ten Adventurers by Explore Magazine, and in 2015 he was named One of Canada's Top 100 Explorers by Canadian Geographic Magazine."
+      }
+    ]
+  },
+  {
+    "qid": "he7",
+    "difficulty": "easy",
+    "question": "What network is the reality TV Show that features American former professional baseball left fielder who played 22 seasons in Major League Baseball (MLB) with the Pittsburgh Pirates and San Francisco Giants?",
+    "gold_answer": "ESPN",
+    "context": [
+      {
+        "title": "Jeffrey Leonard",
+        "text": "Jeffrey Leonard (born September 22, 1955) is an American former professional baseball left fielder.  He played fourteen seasons in Major League Baseball (MLB) from 1977 to 1990 for the Los Angeles Dodgers, Houston Astros, San Francisco Giants, Milwaukee Brewers, and Seattle Mariners."
+      },
+      {
+        "title": "Tim Foli",
+        "text": "Timothy John Foli (born December 8, 1950), is an American former professional baseball player, coach and minor league manager.  He played in Major League Baseball (MLB) as a shortstop for the New York Mets, Montreal Expos, San Francisco Giants, Pittsburgh Pirates, California Angels and New York Yankees from to .  At age 17, Foli was the first pick in the Major League Baseball Draft in and went on to be a member of the 1979 World Series champion Pirates.  Foli was known as a fiery player who was a reliable fielder but only an average hitter.  Foli was a free swinger, especially in when he walked only 14 times, the lowest total ever for 150 or more games played (Ozzie Guillén broke Foli's notorious record three years later).  His free swinging did not aim for the fences, however, as he averaged less than two home runs per season."
+      },
+      {
+        "title": "Raúl Ibañez",
+        "text": "Raúl Javier Ibañez ( ; born June 2, 1972) is an American former professional baseball left fielder in Major League Baseball (MLB) now serving as a special advisor to Los Angeles Dodgers president of baseball operations Andrew Friedman.  He played 11 of his 19 seasons for the Seattle Mariners, and also for the Kansas City Royals, Philadelphia Phillies, New York Yankees, and Los Angeles Angels of Anaheim.  While primarily a left fielder, Ibañez often filled in as a designated hitter as well throughout his career."
+      },
+      {
+        "title": "Pablo Sandoval",
+        "text": "Pablo Emilio Juan Pedro Sandoval Jr. (born August 11, 1986) is a Venezuelan professional baseball third baseman for the San Francisco Giants of Major League Baseball (MLB).  He has played in Major League Baseball for the Giants and the Boston Red Sox.  He stands 5 ft tall and weighs 255 lb .  He previously played portions of three seasons for the Boston Red Sox and seven seasons for the San Francisco Giants.  Nicknamed \"Kung Fu Panda\", Sandoval is a two-time All-Star and has won three World Series championships with the Giants.  Sandoval hit three home runs in Game 1 of the 2012 World Series, becoming the fourth person to hit three home runs in a World Series game, and was named the World Series Most Valuable Player (MVP).  During the offseason, he plays for the Navegantes del Magallanes of the Venezuelan Professional Baseball League."
+      }
+    ]
+  },
+  {
+    "qid": "he8",
+    "difficulty": "easy",
+    "question": "Javier Mora, is a Mexican boxer in the Heavyweight division, he was defeated by Alexander Vladimirovich \"Sasha\" Povetkin, by a 5-round TKO, in which country?",
+    "gold_answer": "Germany",
+    "context": [
+      {
+        "title": "Alexander Artemev",
+        "text": "Alexander Vladimirovich \"Sasha\" Artemev (Russian: Александр Владимирович \"Саша\" Артемьев , Belarusian: Аляксандр Уладзіміравіч Арцем'еў ; born August 29, 1985) is a retired American artistic gymnast.  Artemev was a member of the bronze medal-winning U.S. team at the 2008 Olympic Games.  He is the 2006 all-around U.S. national champion.  Known for his ability on pommel horse, he is the 2007 and 2008 U.S. national champion on the pommel horse and won the bronze medal on the event at the 2006 World Championships."
+      },
+      {
+        "title": "Saúl Montana",
+        "text": "Saúl \"La Cobra\" Montana (born November 23, 1970 in Acapulco, Guerrero, Mexico) is a Mexican boxer in the Heavyweight division.  Montana is the former Mexican National Champion at Light Heavyweight, IBA, NABA, WBC Mundo Hispano, WBC Continental Americas Champion at Cruiserweight, NBA, and Mexican National Champion at Heavyweight."
+      },
+      {
+        "title": "Javier Mora (boxer)",
+        "text": "Javier Mora (born May 25, 1981 in Encarnacion de Diaz, Jalisco, Mexico) is a Mexican boxer in the Heavyweight division.  He was defeated by Alexander Povetkin by a 5-round TKO, in Max Schmeling Halle, Prenzlauer Berg, Berlin, Germany."
+      },
+      {
+        "title": "Javier Mora Godinez",
+        "text": "Javier Mora Godinez, also spelled Xavier Mora Godinez (February 1924 – March 1999), was a songwriter and composer born in Wilmington, California and later moved to Mexico where he worked as a sports reporter at a radio station."
+      }
+    ]
+  },
+  {
+    "qid": "he9",
+    "difficulty": "easy",
+    "question": "What man, also known as mi Sde-Or, created a military self-defense system developed for the Israel Defense Forces?",
+    "gold_answer": "Emrich \"Imi\" Lichtenfeld",
+    "context": [
+      {
+        "title": "Imi Lichtenfeld",
+        "text": "Emrich \"Imi\" Lichtenfeld (May 26, 1910 – January 9, 1998) was a Hungarian-born Israeli martial artist who founded the Krav Maga self-defense system.  He was also known as Imi Sde-Or, the Hebrew calque of his surname."
+      },
+      {
+        "title": "AIL M325 Command Car",
+        "text": "The AIL M325 Command Car is a 4x4 military truck produced by the Automotive Industries Limited (AIL) of Nazareth in Israel from 1970 to 1993 for use by the Israel Defense Forces.  The M325 is a light, versatile truck designed for carrying up to 12 troops and radio equipment while being fitted with up to four 7.62 mm machine guns.  Mechanically, it is based on the Dodge Power Wagon, which it succeeded in service for the Israel Defense Forces."
+      },
+      {
+        "title": "IDF Caterpillar D9",
+        "text": "The Israeli Armored CAT D9—nicknamed \"Doobi\" (Hebrew: דובי‎ ‎ , for teddy bear)—is a Caterpillar D9 armored bulldozer that was modified by the Israel Defense Forces, Israeli Military Industries and Israel Aerospace Industries to increase the survivability of the bulldozer in hostile environments and enable it to withstand heavy attacks, thus making it suitable for military combat engineering use.  The IDF Caterpillar D9 is operated by the Israel Defense Forces (IDF) Combat Engineering Corps for combat engineering and counter-terrorism operations."
+      },
+      {
+        "title": "Krav Maga",
+        "text": "Krav Maga ( ; Hebrew: קְרַב מַגָּע‎ ] , \"lit.\"  \"contact-combat\") is a military self-defense system developed for the Israel Defense Forces (IDF) and Israeli security forces (Shin Bet and Mossad) that consists of a combination of techniques sourced from Boxing, Wrestling, Aikido, Judo, Karate along with realistic fight training.  Krav Maga is known for its focus on real-world situations and its extreme efficiency and brutal counter-attacks.  It was derived from the street-fighting experience of Hungarian-Israeli martial artist Imi Lichtenfeld, who made use of his training as a boxer and wrestler as a means of defending the Jewish quarter against fascist groups in Bratislava, Czechoslovakia in the mid-to-late 1930s.  In the late 1940s, following his migration to Israel, he began to provide lessons on combat training to what was to become the IDF."
+      }
+    ]
+  },
+  {
+    "qid": "he10",
+    "difficulty": "easy",
+    "question": "What American stage, film, and television actor  who also appeared in a large number of musicals, played Samson in the 1949 film \"Samson and Delilah\".",
+    "gold_answer": "Victor John Mature",
+    "context": [
+      {
+        "title": "Arthur Rigby (actor)",
+        "text": "Arthur Turner (27 September 1900 – 25 April 1971) was an English actor.  He was best known for playing Sgt Flint on the TV series \"Dixon of Dock Green\", appearing in 253 episodes from 1955 to 1965.  He also appeared with \"Dixon\" 's star Jack Warner in the 1949 film \"The Blue Lamp\", which was also the film in which the character of PC George Dixon was created."
+      },
+      {
+        "title": "Walter Reed (actor)",
+        "text": "Walter Reed (born Walter Reed Smith, February 10, 1916 – August 20, 2001) was an American stage, film and television actor.  He was born in Fort Ward, Washington.  Following a stint as a Broadway actor, Reed broke into films in 1941.  He appeared in several features for RKO Radio Pictures, including the last two \"Mexican Spitfire\" comedies (in which Reed replaced Buddy Rogers as the Spitfire's husband).  Perhaps his most memorable role was as the spineless wagon driver husband of Gail Russell in the western \"Seven Men from Now\".  Reed also appeared in the very first Superman theatrical feature film \"Superman and the Mole Men\" in 1951."
+      },
+      {
+        "title": "Brian Lane Green",
+        "text": "Brian Lane Green (born March 9, 1962) is an American stage and television actor and singer.  He is known for his stage roles throughout the country such as the title character in Joseph and the Amazing Technicolor Dreamcoat.  Green garnered a Tony Award nomination for his performance in the 1989 Broadway production of \"Starmites\".  He also appeared as JoJo in \"The Life\" on Broadway."
+      },
+      {
+        "title": "Eric Thal",
+        "text": "Eric Thal (born August 10, 1965) is an American film and stage actor, perhaps best known as Ariel in Sidney Lumet's \"A Stranger Among Us\"; Sam Nivens in \"The Puppet Masters\"; Samson in \"Samson and Delilah\"; Meade Howell in \"The Wedding\"; and Rick in \"Six Degrees of Separation\"."
+      }
+    ]
+  },
+  {
+    "qid": "he11",
+    "difficulty": "easy",
+    "question": "The Royal Commission into Drug Trafficking (1977–1979) or Woodward Royal Commission was a royal commission initiated by the New South Wales Government to investigate drug trafficking in New South Wales, Australia, especially links between the New South Wales Police and Mafia, The Honoured Society, is a Calabrian 'Ndrangheta criminal confederation, started in Melbourne and currently active in all of which country?",
+    "gold_answer": "Australia",
+    "context": [
+      {
+        "title": "List of Commissioners of New South Wales Police",
+        "text": "The Commissioner of the New South Wales Police Force (Known from 1851 to 1926 as the Inspector-General of the New South Wales Police Force) is the head of New South Wales's Police Force.  The post is currently held by Mick Fuller, who replaced Andrew Scipione on 31 March 2017.  The rank is usually referred to as the New South Wales Police Commissioner or simply just \"Commissioner\".  The New South Wales Police Force has had 22 Commissioners since 1851."
+      },
+      {
+        "title": "Royal Commission into Drug Trafficking",
+        "text": "The Royal Commission into Drug Trafficking (1977–1979) or Woodward Royal Commission was a royal commission initiated by the New South Wales Government to investigate drug trafficking in New South Wales, Australia, especially links between the Mafia and New South Wales Police and the disappearance of anti-marijuana campaigner Donald Mackay."
+      },
+      {
+        "title": "New South Wales Police Force",
+        "text": "The New South Wales Police Force (NSW Police Force; previously the New South Wales Police Service and New South Wales Police) is the primary law enforcement agency of the state of New South Wales, Australia.  It is a servant of the Crown, independent of Government, although a minister of the Crown has administration.  Divided into seventy six local area commands (LAC), the NSW Police Force consists of more than 500 local police stations and covers an area of 801,600 square kilometres in a state of some seven million people."
+      },
+      {
+        "title": "Kennedy Royal Commission",
+        "text": "The Royal commission into whether there has been corrupt or criminal conduct by any Western Australian Police Officer, commonly known as the Kennedy Royal Commission, was a Royal Commission established in 2002 by the state government of Western Australia to determine whether any officer of the Western Australia Police had engaged in corrupt or criminal conduct.  The commission issued an interim report on 20 December 2002 and a final report on 30 January 2004."
+      }
+    ]
+  },
+  {
+    "qid": "he12",
+    "difficulty": "easy",
+    "question": "The 2000–01 NBA season was the Jazz's 27th season in the National Basketball Association, and 22nd season in Salt Lake City, Utah, after the retirement of Jeff Hornacek, the Jazz signed free agents John Starks, and who?",
+    "gold_answer": "Danny Manning",
+    "context": [
+      {
+        "title": "1997–98 Utah Jazz season",
+        "text": "The 1997–98 NBA season was the Jazz's 24th season in the National Basketball Association, and 19th season in Salt Lake City, Utah.  Without John Stockton for the first 18 games due to a knee injury, the Jazz slowly got off to an 11–7 start to the season.  However, Stockton would eventually return as the Jazz won 31 of their final 36 games after the All-Star break, and finished first place in the Midwest Division with a 62–20 record.  The Jazz's top scorer Karl Malone, who averaged 27.0 points per game, was part of a Jazz offense that had two other players, Stockton and Jeff Hornacek, averaging double-digits in points.  Malone was the only member of the team to play in the 1998 NBA All-Star Game."
+      },
+      {
+        "title": "2002–03 Utah Jazz season",
+        "text": "The 2002–03 NBA season was the Jazz's 29th season in the National Basketball Association, and 24th season in Salt Lake City, Utah.  During the offseason, the Jazz signed free agents Matt Harpring, Calbert Cheaney and Mark Jackson.  The team finished third in the Midwest Division with a 47–35 record, and qualified for the playoffs for the twentieth straight season.  However, the Jazz once again failed to make it out of the first round, losing to the Sacramento Kings in five games.  This season also marked the end of the Stockton and Malone era.  John Stockton and Karl Malone were both given a long standing ovation after Game 4 at the Delta Center, and another one after Game 5 at the ARCO Arena.  Following the season, Stockton retired while Malone signed as a free agent with the Los Angeles Lakers.  Also following the season, Cheaney signed with the Golden State Warriors and Jackson was released.  The Jazz would not return to the playoffs until 2007."
+      },
+      {
+        "title": "1999–2000 Utah Jazz season",
+        "text": "The 1999–2000 NBA season was the Utah Jazz's 26th season in the National Basketball Association, and 21st season in Salt Lake City, Utah.  During the offseason, the Jazz signed free agent Olden Polynice, then later on signed Armen Gilliam in January.  The Jazz were now the oldest team in the NBA still led by John Stockton and Karl Malone, who were both selected for the 2000 NBA All-Star Game.  The Jazz would recapture the Midwest Division with a solid 55–27 record, qualifying for the playoffs for the 17th straight season.  In the playoffs, the Jazz defeated the Seattle SuperSonics three games to two in the Western Conference Quarterfinals, but would lose in five games to the Portland Trail Blazers in the semifinals for the second consecutive year.  Following the season, Jeff Hornacek retired after playing fourteen years in the NBA, Gilliam also retired while Howard Eisley was traded to the Dallas Mavericks, and Adam Keefe was dealt to the Golden State Warriors."
+      },
+      {
+        "title": "2000–01 Utah Jazz season",
+        "text": "The 2000–01 NBA season was the Jazz's 27th season in the National Basketball Association, and 22nd season in Salt Lake City, Utah.  After the retirement of Jeff Hornacek, the Jazz signed free agents Danny Manning and John Starks, and acquired Donyell Marshall from the Golden State Warriors in an offseason four-team trade.  The Jazz got off to a fast start winning 16 of their first 20 games, but struggled a bit down the stretch.  They finished second in the Midwest Division with a 53–29 record, and qualified for the playoffs for the eighteenth straight season.  On a more positive note, the Jazz equaled the Los Angeles Lakers' record of sixteen consecutive winning seasons, set between 1976–77 and 1991–92.  The Jazz were ultimately to make it nineteen consecutive winning seasons before finishing with only 26 wins in 2004–05."
+      }
+    ]
+  },
+  {
     "qid": "he13",
+    "difficulty": "easy",
+    "question": "Hot Coffee, Mississippi sometimes shares a zipcode with a nearby city with what population at the 2010 census?",
+    "gold_answer": "2,586",
+    "context": [
+      {
+        "title": "Wilkes-Barre, Pennsylvania",
+        "text": "Wilkes-Barre ( or ) is a city in the Commonwealth of Pennsylvania and the county seat of Luzerne County.  It is one of the principal cities in the \"Scranton–Wilkes-Barre–Hazleton, PA Metropolitan Statistical Area\".  Located at the center of the Wyoming Valley, it is second in size to the nearby city of Scranton.  The Scranton–Wilkes-Barre–Hazleton, PA Metropolitan Statistical Area had a population of 563,631 as of the 2010 Census, making it the fourth-largest metro/statistical area in the state of Pennsylvania.  Wilkes-Barre and the surrounding Wyoming Valley are framed by the Pocono Mountains to the east, the Endless Mountains to the west, and the Lehigh Valley to the south.  The Susquehanna River flows through the center of the valley and defines the northwestern border of the city."
+      },
+      {
+        "title": "Lynd, Minnesota",
+        "text": "Lynd is a city in Lyon County, Minnesota, United States.  The population was 448 at the 2010 census.  Lynd is a small but growing community in southwestern Minnesota.  The development of a new golf course and an additional housing development have started a growth trend that may eventually double the size of the community.  It is primarily a bedroom community for individuals who work in the nearby city of Marshall.  Despite being much smaller in size, it historically played a more significant role in the area.  The Kiel and Morgan Hotel in the town was the original Lyon County seat."
+      },
+      {
+        "title": "Carencro, Louisiana",
+        "text": "Carencro ( ; historically French: \"St.-Pierre\" ) is a small city in Lafayette Parish, Louisiana.  It is a suburb of the nearby city of Lafayette.  The population was 7,526 at the 2010 census, up from 6,120 at the 2000 census.  Its name comes from the Cajun French word for buzzard: the spot was one where large flocks of buzzards roosted in the bald cypress trees.  The name means \"carrion crow.\""
+      },
+      {
+        "title": "Burns, Oregon",
+        "text": "Burns is a city in and the county seat of Harney County, in the U.S. state of Oregon.  According to the 2010 census, the population was 2,806.  Burns and the nearby city of Hines are home to about 60 percent of the people in the sparsely populated county, the largest in Oregon and the ninth largest in the United States."
+      }
+    ]
+  },
+  {
+    "qid": "he14",
+    "difficulty": "easy",
+    "question": "The NBC-affiliated television station, owned by an American telecommunications company whose founder is Julian Sinclair Smith, called WJAR is more commonly known as what?",
+    "gold_answer": "NBC 10",
+    "context": [
+      {
+        "title": "WJAC-TV",
+        "text": "WJAC-TV is the NBC-affiliated television station for West-Central Pennsylvania, United States that is licensed to Johnstown.  It broadcasts a high definition digital signal on UHF channel 34 (or virtual channel 6 via PSIP) from a transmitter northwest of the city in Laurel Ridge State Park along the Cambria and Westmoreland county line.  The station is owned by the Sinclair Broadcast Group, which also operates Johnstown-licensed Fox affiliate WWCP-TV, channel 8 (owned by Horseshoe Curve Communications and operated by Cunningham Broadcasting) and Altoona-licensed ABC affiliate WATM-TV, channel 23 (owned by Palm Television, L.P.) under a master service agreement."
+      },
+      {
+        "title": "WPBN-TV",
+        "text": "WPBN-TV is the NBC-affiliated television station for the northern Lower and eastern Upper peninsulas of Michigan in the United States.  Licensed to Traverse City, it broadcasts a high definition digital signal on UHF channel 47 (or virtual channel 7 via PSIP) from a transmitter east of Kalkaska.  There is also a low-powered digital fill-in translator on UHF channel 50 from a transmitter south of Harrietta in the Manistee National Forest.  Owned by Sinclair Broadcast Group, the station operates ABC affiliate WGTU and its full-time satellite WGTQ (owned by Cunningham Broadcasting) through a local marketing agreement (LMA).  However, Sinclair effectively owns WGTU/WGTQ due to Cunningham's ownership structure.  The two stations share studios on M-72 just west of Traverse City."
+      },
+      {
+        "title": "WJAR",
+        "text": "WJAR (more commonly known as NBC 10) is the NBC-affiliated television station for the state of Rhode Island and Bristol County, Massachusetts licensed to Providence.  It broadcasts a high definition digital signal on UHF channel 50 from a transmitter in Rehoboth, Massachusetts.  Owned by Sinclair Broadcast Group, the station shares studios on Kenney Drive in Cranston with ZGS Communications-owned Telemundo affiliate WRIW-CD."
+      },
+      {
+        "title": "WSTM-TV",
+        "text": "WSTM-TV is the NBC-affiliated television station for Central Upstate New York that is licensed to Syracuse.  It broadcasts a high definition digital signal on UHF channel 24 (or virtual channel 3.1 via PSIP) from a transmitter in the town of Onondaga.  Owned by the Sinclair Broadcast Group, the station is sister to low-powered CW affiliate WSTQ-LP and CBS affiliate WTVH.  However, the latter is actually owned by Granite Broadcasting but operated by Sinclair through joint sales and shared services agreements.  All three outlets share studios together on James Street/NY 290 in the Near Northeast section of Syracuse."
+      }
+    ]
+  },
+  {
+    "qid": "he15",
     "difficulty": "easy",
     "question": "Gary Harrison, began his career in the 1970s and has written over how many major-label recorded songs including several number-one hits, another artist who have recorded his work include Bryan White, an American country music artist?",
     "gold_answer": "300",
@@ -312,7 +360,55 @@
     ]
   },
   {
-    "qid": "he14",
+    "qid": "he16",
+    "difficulty": "easy",
+    "question": "What type of species is a Boreo-arctic Montane species found in the most northerly of the abstract five major circles of latitude as shown on maps of the Earth?",
+    "gold_answer": "beetle",
+    "context": [
+      {
+        "title": "Geographical zone",
+        "text": "The five main latitude regions of the Earth's surface comprise geographical zones, divided by the major circles of latitude.  The differences between them relate to climate.  They are as follows:"
+      },
+      {
+        "title": "Carabus glabratus",
+        "text": "Carabus glabratus is a species of beetle.  It is a Boreo-arctic Montane species widespread in Central Europe and Northern Europe north to the Arctic Circle."
+      },
+      {
+        "title": "Smerinthus minor",
+        "text": "Smerinthus minor (lesser eyed hawkmoth) is a moth of the family Sphingidae.  It was described by Mell in 1937.  It is a montane species found from the Taibai Shan area, western Qinling Mountains in Shaanxi, China eastwards along the Qinling to southern Shanxi and then north to just west of Beijing.  It has also been recorded from the Miaofeng Mountains near Beijing and the Wuling Mountains in Hunan."
+      },
+      {
+        "title": "Ulmus glabra",
+        "text": "Ulmus glabra, the wych elm, Scotch elm or Scots elm, has the widest range of the European elm species, from Ireland eastwards to the Urals, and from the Arctic Circle south to the mountains of the Peloponnese in Greece; it is also found in Iran.  A large, deciduous tree, it is essentially a montane species, growing at elevations of up to 1500 m, preferring sites with moist soils and high humidity.  The tree can form pure forests in Scandinavia and occurs as far north as latitude 67°N at Beiarn in Norway.  Wych elm has also been successfully introduced to Narsarsuaq, near the southern tip of Greenland (61°N)."
+      }
+    ]
+  },
+  {
+    "qid": "he17",
+    "difficulty": "easy",
+    "question": "Dua Lipa, an English singer, songwriter and model, the album spawned the number-one single \"New Rules\" is a song by English singer Dua Lipa from her eponymous debut studio album, released in what year?",
+    "gold_answer": "2017",
+    "context": [
+      {
+        "title": "Last Dance (Dua Lipa song)",
+        "text": "\"Last Dance\" is a song by English singer Dua Lipa from her eponymous debut studio album (2017).  Lipa wrote the song with Stephen \"Koz\" Kozmeniuk and Talay Riley, with Kozmeniuk handling the song's production.  It was released on 9 February 2016 as the album's second single.  The track appears on the deluxe edition of \"Dua Lipa\".  It peaked at number four on the \"Billboard\" Twitter Emerging Artists chart, spending seven weeks on it."
+      },
+      {
+        "title": "Dua Lipa",
+        "text": "Dua Lipa ( ; ] ; born 22 August 1995) is an English singer, songwriter and model.  Her musical career began at age 16, when she began covering songs by other artists on YouTube.  In 2015, she was signed with Warner Music Group, and released her first single soon after.  In December 2016, a documentary about Lipa was commissioned by \"The Fader\" magazine, titled \"See in Blue\".  In January 2017, she won the EBBA Public Choice Award.  Her self-titled debut studio album was released on 2 June 2017.  The album spawned seven singles, including the top-10 single \"Be the One\" and the number-one single \"New Rules\"."
+      },
+      {
+        "title": "Lost in Your Light",
+        "text": "\"Lost in Your Light\" is a song by English singer Dua Lipa, featuring American singer Miguel.  The song was released on 21 April 2017 as the fifth single from Lipa's eponymous debut studio album.  It was released as an instant-grat track to those who pre-ordered the song on the iTunes Store.  The song was written by Lipa, Miguel, and Rick Nowels, while production was handled by Miguel and Stephen \"Koz\" Kozmeniuk.  The accompanying music video, directed by Henry Schofield, was filmed in Los Angeles and premiered on 26 May 2017."
+      },
+      {
+        "title": "Be the One (Dua Lipa song)",
+        "text": "\"Be the One\" is a song by English singer Dua Lipa from her eponymous debut studio album (2017).  It was written by Lucy Taylor, Digital Farm Animals and Jack Tarrant, and produced by Digital Farm Animals.  The song was released on 30 October 2015 as the album's lead single."
+      }
+    ]
+  },
+  {
+    "qid": "he18",
     "difficulty": "easy",
     "question": "Still Da Baddest is the fourth studio album by American rapper Trina, following the poor chart performance, \"I Got a Thang for You\" featuring which American singer/songwriter, record producer, business woman, and television personality, and was born in Oakland, California?",
     "gold_answer": "Keyshia Cole",
@@ -336,31 +432,247 @@
     ]
   },
   {
-    "qid": "he15",
+    "qid": "he19",
     "difficulty": "easy",
-    "question": "Don Barry Mason was the founder of the Psychedelic Shamanistic Institute (PSI), which other member that's Welsh, that died on 10 April 2016?",
-    "gold_answer": "Dennis Howard Marks",
+    "question": "Atoms for Peace are an English-American experimental rock supergroup comprising Radiohead singer Thom Yorke, is an English musician and composer, best known as the singer and principal songwriter of which band?",
+    "gold_answer": "Radiohead",
     "context": [
       {
-        "title": "Australian twenty five-cent coin",
-        "text": "The twenty five-cent coin of the Australian decimal currency system was issued as a part of a 14 coin collectors set on from the 10 April 2016 to the 23 April 2016.  The coins were sold for $3 in conjunction with a local news corp paper."
+        "title": "Stanley Donwood",
+        "text": "Stanley Donwood (born 29 October 1968) is the pen name of English artist and writer Dan Rickwood.  He is best known for his work with the English alternative rock band Radiohead, having created all of their album and poster art since 1994, often in collaboration with Radiohead singer Thom Yorke.  He also creates artwork for Yorke's solo albums and Yorke's band Atoms for Peace."
       },
       {
-        "title": "Charles Cardoza Poindexter",
-        "text": "Charles Cardoza Poindexter (March 10, 1880 – June 3, 1913) was a professor at Fisk University.  Poindexter was also known for being the precursor, but not a Founder, of the oldest intercollegiate fraternity for blacks in America, Alpha Phi Alpha, who later on became a prominent member and influence in Omega Psi Phi, using his earlier experience to develop much of the framework.  He is credited with suggesting the \"Phi\" in the name Omega Psi Phi, as well as the color \"Old Gold\"."
+        "title": "Jonny Greenwood",
+        "text": "Jonathan Richard Guy Greenwood (born 5 November 1971) is an English musician and the lead guitarist and keyboardist of the alternative rock band Radiohead.  A multi-instrumentalist, Greenwood also plays instruments including the bass guitar, piano, viola, and drums, and is a prominent player of the ondes Martenot, an early electronic instrument.  He works with electronic techniques such as programming, sampling and looping, and writes music software used by Radiohead.  He described his role in the band as an arranger, helping to transform singer Thom Yorke's demos into full songs.  He has been named one of the greatest guitarists of all time by publications including the \"NME,\" \"Rolling Stone\" and \"Spin\"."
       },
       {
-        "title": "2016–17 British and Irish Cup",
-        "text": "The 2016–17 British and Irish Cup was the eighth season of the annual rugby union competition for second tier, semi-professional clubs from Britain and Ireland.  London Welsh are the defending champions having won the 2015–16 final against Yorkshire Carnegie 10–33 at Headingley Carnegie Stadium, Leeds on 10 April 2016.  There have been six different winners and six different losing finalists in the seven seasons of its existence.  The format of the competition is similar to last season with Scottish clubs not competing.  For the second consecutive season the four Welsh teams are the reserve sides of the teams competing in the Pro12 competition instead of clubs from the Welsh Premier Division."
+        "title": "Lotus Flower (song)",
+        "text": "\"Lotus Flower\" is a song by the English alternative rock band Radiohead, released on their eighth studio album \"The King of Limbs \"(2011).  It features singer Thom Yorke's falsetto over syncopated beats and a \"propulsive\" bass line.  Its music video, featuring Yorke's erratic dancing, spawned an internet meme."
       },
       {
-        "title": "The Ride Tour",
-        "text": "The Ride Tour is the ongoing second concert tour by English indie rock band Catfish and the Bottlemen, in support of the group's second studio album \"The Ride\".  The tour was announced in February 2016 and began on 4 April 2016, in Glasgow, United Kingdom at the O2 Academy Glasgow.  The tour is planned to travel across Europe and North America with a total of 50 shows planned so far.  On 22 February 2016, the band announced an April 2016 stint of shows in UK, including Glasgow, Halifax, Southend On Sea, Doncaster, London and Brighton.  The band will also headline several festivals across the UK throughout the summer, including Liverpool's 'Sound City' in May 2016, Bristol's Summer Series in July 2016 and Manchester's Castlebowl in July 2016.  On 14 March 2016 it was announced that the band will play several dates in North America in June 2016.  The band are also scheduled to play several European festivals this year, including Scotland's T in the Park, Spain's Benicàssim festival, Cumbria's Kendal Calling in July 2016, Cornwall's Boardmasters Festival in August 2016 and Germany's Lollapalooza in September 2016.  The band will also support Welsh rock band Stereophonics on their Wrexham, Racecourse Ground stadium gig in July 2016, as part of their Keep the Village Alive tour."
+        "title": "Headless Chickens (UK band)",
+        "text": "Headless Chickens were a melodic punk band from Exeter, England whose members included Thom Yorke (guitar and vocals), Simon Shackleton (bass and vocals), John Matthias (violin), Laura Forrest-Hay (violin), Martin Brooks (drums), Andy Hills (bass) and Lindsey Moore (drums).  In June 1989 they released their first single, \"I Don't Want To Go To Woodstock\", on the \"Hometown Atrocities\" EP, along with tracks from three other bands (Beaver Patrol, Jackson Penis and Mad At The Sun).  This is believed to be Thom Yorke's first ever released recording, on which he played lead guitar and sang backing vocals; Yorke later became famous as the singer of Radiohead."
       }
     ]
   },
   {
-    "qid": "he16",
+    "qid": "he20",
+    "difficulty": "easy",
+    "question": "American politician Joe Heck ran unsuccessfully against Democrat Catherine Cortez Masto, a woman who previously served as the 32nd Attorney General of where?",
+    "gold_answer": "Nevada",
+    "context": [
+      {
+        "title": "Kamala Harris",
+        "text": "Kamala Devi Harris ( , ; born October 20, 1964) is an American attorney and politician.  A member of the Democratic Party, she currently serves as the junior senator from California.  She previously served as the 32nd Attorney General of California."
+      },
+      {
+        "title": "Maryland Attorney General election, 2014",
+        "text": "The Maryland Attorney General election of 2014 was held on November 4, 2014, to elect the Attorney General of Maryland.  Incumbent Democratic Attorney General Doug Gansler was eligible to seek a third term in office, but instead ran unsuccessfully for the Democratic nomination for Governor of Maryland."
+      },
+      {
+        "title": "Corey Palumbo",
+        "text": "Corey Lee Palumbo (born August 16, 1972) is a West Virginia State Senator representing the 17th district in the West Virginia Senate.  A state senator since 2009, he previously served as a member of the West Virginia House of Delegates from 2003 to 2009.  He is the son of Mario Palumbo, the 32nd Attorney General of West Virginia as well as a former five-term state senator."
+      },
+      {
+        "title": "Catherine Cortez Masto",
+        "text": "Catherine Marie Cortez Masto (born March 29, 1964) is an American attorney and politician who is the junior United States Senator from Nevada.  She is a member of the Democratic Party.  She previously served as the 32nd Attorney General of Nevada from 2007 to 2015."
+      }
+    ]
+  },
+  {
+    "qid": "he21",
+    "difficulty": "easy",
+    "question": "Gülhane Park and Zografeion Lyceum, are located in which country?",
+    "gold_answer": "Turkey",
+    "context": [
+      {
+        "title": "Column of the Goths",
+        "text": "The Column of the Goths (Turkish: \"Gotlar Sütunu\" ) is Roman victory column dating to the third or fourth century A.D.  It stands in what is now Gülhane Park, Istanbul, Turkey."
+      },
+      {
+        "title": "Lyceum Theatre (Park Avenue South)",
+        "text": "The Lyceum Theatre was a theatre in New York City located on Fourth Avenue, now Park Avenue South, between 23rd and 24th Streets in Manhattan.  It was built in 1885 and operated until 1902, when it was torn down to make way for the Metropolitan Life Insurance Company Tower.  It was replaced by a new Lyceum Theatre on 45th Street.  For most of its existence, the theatre was home to Daniel Frohman’s Lyceum Theatre Stock Company, which presented many important plays and actors of the day."
+      },
+      {
+        "title": "Procession Kiosk",
+        "text": "The Procession Kiosk (Turkish: \"Alay Köşkü\" ) is a 16th-century historical building on the outer walls of the Gülhane Park next to Topkapı Palace in Istanbul, Turkey.  It was used by the Ottoman sultans to receive the salute of processing janissary as well as a pleasure local.  The building is situated across the Sublime Porte."
+      },
+      {
+        "title": "Soğukçeşme Sokağı",
+        "text": "Soğukçeşme Sokağı (literally: Street of the Cold Fountain) is a small street with historic houses in the Sultanahmet neighborhood of Istanbul, Turkey, sandwiched in-between the Hagia Sophia and Topkapı Palace.  The car-free zone street is named after the fountain situated at its end towards Gülhane Park."
+      }
+    ]
+  },
+  {
+    "qid": "he22",
+    "difficulty": "easy",
+    "question": "The 337th Flight Test Squadron (337 FLTS) was most recently part of the 46th Test Wing and based at McClellan Air Force Base, a former United States Air Force base located in the North Highlands area of Sacramento County, in which US state?",
+    "gold_answer": "California",
+    "context": [
+      {
+        "title": "46th Operations Group",
+        "text": "The 46th Operations Group was a component of the United States Air Force 46th Test Wing assigned to Eglin Air Force Base, Florida.  It was inactivated on 1 October 2012, and its functions consolidated under the 96th Test Wing at Eglin Air Force Base, Florida"
+      },
+      {
+        "title": "46th Test Wing",
+        "text": "The 46th Test Wing is an inactive wing of the United States Air Force last based at Eglin Air Force Base, Florida.  The wing's 46th Test Group was a tenant unit at Holloman Air Force Base, New Mexico."
+      },
+      {
+        "title": "46th Test Group",
+        "text": "The 46th Test Group was a United States Air Force unit active from 1992 to 2012.  It was last active with 46th Test Wing, at Eglin Air Force Base, Florida.  The 46th Test Group was stationed as a tenant unit at Holloman Air Force Base, New Mexico, throughout its existence.  It was inactivated on 18 July 2012, being replaced by the 96th Test Group in an administrative reorganization."
+      },
+      {
+        "title": "486th Flight Test Squadron",
+        "text": "The 486th Flight Test Squadron is a secretive unit, with a somewhat misleading designation, assigned to Eglin Air Force Base, Florida, and which is associated with United States Department of State Foreign Emergency Support Team activities.  The squadron motto is \"\"Non semper ea sunt quae videntur\"\" which translates as \"Not always what they seem\".  It was apparently assigned to the 227th Special Operations Flight, later redesignated the 150th Special Operations Squadron, McGuire Air Force Base, New Jersey, but is currently assigned to the 46th Test Wing at Eglin, and operates a pair of Boeing C-32B or Boeing 757-23A aircraft, on stand-by alert for special operations and intelligence missions world-wide.  Official documents make it clear that operations fall under the aegis of Air Force Special Operations Command."
+      }
+    ]
+  },
+  {
+    "qid": "he23",
+    "difficulty": "easy",
+    "question": "Superheaven and Oceansize, are bands of which shared genre?",
+    "gold_answer": "rock",
+    "context": [
+      {
+        "title": "Emo",
+        "text": "Emo is a genre of rock music characterized by an emphasis on emotional expression, sometimes through confessional lyrics.  It emerged as a style of post-hardcore from the mid-1980s hardcore punk movement of Washington, D.C., where it was known as emotional hardcore or emocore and pioneered by Washington, D.C. hardcore bands such as Rites of Spring and Embrace.  However, as the genre was taken up by a new generation of musicians in the early 1990s, its sound and meaning shifted and changed and it was reinvented as a style of indie rock and pop punk by bands such as Jawbreaker, Sunny Day Real Estate, Weezer, and Jimmy Eat World.  By the mid-1990s, numerous emo acts such as Braid, The Promise Ring, and the Get Up Kids emerged in the Midwestern and Central United States, and several independent record labels began to specialize in the genre.  Meanwhile, a more aggressive style of emo, screamo, had also emerged, pioneered by the San Diego bands Heroin and Antioch Arrow."
+      },
+      {
+        "title": "Die anderen Bands",
+        "text": "Die anderen Bands (] , \"the other bands\") is a term combining alternative music bands of 1980s GDR (East Germany).  They shared a more or less open criticism of their country's political system, and a high degree of creativity which was lacking from the more established music scene of East Germany.  Many members of these bands played significant parts during the time of political change \"Wende\" in 1989.  The bands came from a broad range of musical genres, especially Punk, Blues, Wave, Indie and Electronic music."
+      },
+      {
+        "title": "Lines Across Maps",
+        "text": "Lines Across Maps are a British math rock band based in Lincolnshire, England.  Their music is characterized by a use of complex time signatures and heavy, guitar driven sounds.  In December 2011, shortly after the release of their debut EP, Stuart Smith of This Town Needs Guns described the band as \"a lot like Colour (now defunct UK math rock band)\".  The name Lines Across Maps is taken from the This Town Needs Guns song \"It's Not True Rufus, Don't Listen To The Hat\".  Lines Across Maps cite bands such as Jocasta Sleeps, Reuben, Oceansize, Biffy Clyro, Twin Atlantic, Blakfish and Meet Me In St Louis as major influences."
+      },
+      {
+        "title": "Riverbeds (band)",
+        "text": "Riverbeds is a Canadian post-rock/emo band from Montreal, Qc formed in 2010.  The band made its recording debut in 2012 with the EP \"Hiding Small Things In Obvious Places\" which was released on November 24 at Panda Bar.  Riverbeds musical style has been described by Indecent Xposure as being influenced by \"Thrice, The Almost and Circa Survive amongst others\".  The band shared the stage with both local and international bands, including Daylight (now Superheaven), Tyler Daniel Bean and Stuck On Planet Earth."
+      }
+    ]
+  },
+  {
+    "qid": "he24",
+    "difficulty": "easy",
+    "question": "what is the connection between Peter O'Meara and Norman Dike?",
+    "gold_answer": "Band of Brothers",
+    "context": [
+      {
+        "title": "Peter O'Meara (rugby union)",
+        "text": "Peter O'Meara was the inaugural CEO of the Western Force rugby union team.  He was appointed in March 2005 following the successful bid by RugbyWA for the right to host the fourth Australian franchise.  O'Meara had previously been on the boards of the NSWRU and QRU and had moved to Western Australia in his capacity as an executive with the Commonwealth Bank."
+      },
+      {
+        "title": "Time Slave",
+        "text": "Time Slave is a 1975 hybrid of historical fiction and science fiction by John Norman.  In this book, Norman presents his personal theories of human evolution, exemplified by the case of a modern woman sent back in time twenty thousand years or more; he mourns the loss of human evolutionary fitness and distortion of \"natural\" social relations which in his view occurred when farming spread, and farmers squeezed hunter/gatherers to the ecological margins.  \"Time Slave\" features Norman's social philosophy of male-dominance (as also in his \"Gor\" series), and expresses an unexplained connection between female sexual subordination and the speeding up of the development of space travel."
+      },
+      {
+        "title": "Gold (1974 film)",
+        "text": "Gold is a 1974 thriller film starring Roger Moore and Susannah York and directed by Peter R. Hunt.  It was based on the 1970 novel \"Gold Mine\" by Wilbur Smith.  Moore plays Rodney \"Rod\" Slater, General Manager of a South African gold mine, who is instructed by his boss Steyner (Bradford Dillman) to break through an underground dike into what he is told is a rich seam of gold.  Meanwhile, he falls in love with Steyner's wife Terry, played by York.  In the United States, the film was only released as part of a double bill."
+      },
+      {
+        "title": "Peter O'Meara",
+        "text": "Peter O'Meara is an award-winning Irish actor.  Lauded for his work on the London stage he came to the screen in the groundbreaking HBO series \"Band of Brothers\" playing 1st Lt Norman Dike.  He garnered a popular following on USA TV series \"Peacemakers\" as Det Larimer Finch bringing the science of the future to the old west opposite Tom Berenger as Marshall Jared Stone.  For this he received the Western Heritage Bronze Wrangler award."
+      }
+    ]
+  },
+  {
+    "qid": "he25",
+    "difficulty": "easy",
+    "question": "Canton Road Station was a planned railway station on the Kowloon Southern Link of West Rail Line, that was to run beneath a large shopping mall located where?",
+    "gold_answer": "Tsim Sha Tsui, Hong Kong",
+    "context": [
+      {
+        "title": "Nam Cheong Station",
+        "text": "Nam Cheong () is a MTR interchange station located at ground level beneath West Kowloon Highway, in Sham Shui Po, Hong Kong opposite the Fu Cheong Estate.  It is served by the Tung Chung Line and West Rail Line and provides cross-platform interchange between platform 1 (West Rail Line towards Tuen Mun) and platform 4 (Tung Chung Line towards Hong Kong).  The livery of Nam Cheong Station is pale yellow green."
+      },
+      {
+        "title": "Mei Foo Station",
+        "text": "Mei Foo () is a Hong Kong MTR station located in Mei Foo Sun Chuen, Lai Chi Kok, New Kowloon.  It is an interchange station between the Tsuen Wan Line and the West Rail Line, situated between Lai Chi Kok and Lai King stations on the Tsuen Wan Line and Nam Cheong Station and Tsuen Wan West stations on the West Rail Line.  Mei Foo Station's livery is blue."
+      },
+      {
+        "title": "Yuen Long Station",
+        "text": "Yuen Long () is an MTR station located in the northeastern part of Yuen Long Town, Yuen Long District, between Kam Sheung Road and Long Ping stations on the West Rail Line.  It is an interchange between the West Rail Line and the Light Rail Yuen Long Stop."
+      },
+      {
+        "title": "West Rail Line",
+        "text": "The West Rail Line () is one of the MTR lines in Hong Kong, indicated by the colour dark magenta.  It was formerly known as the KCR West Rail (九廣西鐵 ).  The line connects Hung Hom Station in Kowloon and Tuen Mun Station in Tuen Mun, 35.7 km away, in 37 minutes.  The railway runs through the cities of Kowloon, Castle Peak and Tsuen Wan."
+      }
+    ]
+  },
+  {
+    "qid": "he26",
+    "difficulty": "easy",
+    "question": "Which industry do Richard Hawley and Chicago's Catherine belong to?",
+    "gold_answer": "rock band",
+    "context": [
+      {
+        "title": "Late Night Final",
+        "text": "Late Night Final is the second studio album (and first full-length album after the mini-album \"Richard Hawley\" released six months earlier) from musician Richard Hawley, released in the UK in October 2001 by Setanta Records.  Named after the cry of vendors selling the \"Sheffield Star\" evening newspaper on the streets of his home city, it was released to positive reviews.  A single, \"Baby, You're My Light\" was released from the album in February 2002, reaching #81 in the UK singles chart."
+      },
+      {
+        "title": "Lady's Bridge (album)",
+        "text": "Lady's Bridge is the fifth studio album from musician Richard Hawley, released on 20 August 2007 in the UK and on 9 October 2007 in the US.  The album follows his 2005 Mercury Music Prize-nominated album \"Coles Corner\".  It is named after the landmark location of Lady's Bridge in Hawley's hometown of Sheffield, an old bridge over the River Don that historically connected the rich and poor parts of the town.  Hawley told \"Uncut\" magazine that \"the title is a metaphor too; it's about leaving the past behind\".  The cover features a photograph, taken by Martin Parr, of Hawley and his guitar at the Club 60 music venue in Sheffield as a tribute to his father Dave who had died of lung cancer earlier that year: Dave Hawley had been a blues guitarist at the club in his youth, playing alongside Muddy Waters and John Lee Hooker."
+      },
+      {
+        "title": "Standing at the Sky's Edge",
+        "text": "Standing at the Sky's Edge is the seventh studio album from English musician Richard Hawley, released in the UK on 7 May 2012 and in the US on 28 August 2012.  The album is markedly different from Hawley's previous efforts, often relinquishing softer instrumentation in favour of squalling guitars.  As with all of Hawley's previous albums, the title obliquely refers to a location in his native city of Sheffield, in this case Skye Edge, a hillside area with views over the city centre and formerly known for its crime-ridden estates but largely redeveloped in the mid-2000s."
+      },
+      {
+        "title": "Richard Hawley",
+        "text": "Richard Willis Hawley (born 17 January 1967) is an English guitarist, singer-songwriter and producer.  After his first band Treebound Story (formed while he was still at school) broke up, Hawley found success as a member of Britpop band Longpigs in the 1990s.  After that group broke up in 2000, he later joined the band Pulp, led by his friend Jarvis Cocker, for a short time.  As a solo musician, Hawley has released seven studio albums.  He has been nominated for a Mercury prize twice and once for a Brit Award.  He has collaborated with Lisa Marie Presley, Arctic Monkeys, Manic Street Preachers and Paul Weller."
+      }
+    ]
+  },
+  {
+    "qid": "he27",
+    "difficulty": "easy",
+    "question": "Who was once considered the best kick boxer in the world, however he has been involved in a number of controversies relating to his \"unsportsmanlike conducts\" in the sport and crimes of violence outside of the ring.",
+    "gold_answer": "Badr Hari",
+    "context": [
+      {
+        "title": "Verano de Escándalo (1998)",
+        "text": "The 1998 Verano de Escándalo (Spanish for \"Summer of Scandal\") was the second annual \"Verano de Escandalo\" professional wrestling show promoted by AAA.  The show took place on September 18, 1998, in Madero, Tamaulipas, Mexico.  The main event featured steel cage match between the teams of Heavy Metal and Blue Demon Jr. and Kick Boxer and Abismo Negro.  The stipulation of the main event was that if the team of Heavy Metal and Blue Demon Jr. lost referee Guicho Dominguez would be referee El Tirante's \"slave\" for a week.  If Kick Boxer and Abismo Negro lost El Tirantes would be Guicho Dominguez's slave for a week."
+      },
+      {
+        "title": "Triplemanía VII",
+        "text": "Triplemanía VII was the seventh \"Triplemanía\" wrestling show promoted by AAA.  The show took place on June 11, 1999, in Madero, Mexico.  The Main event featured a Six-man \"Lucha Libre rules\" tag team match between the teams of Perro Aguayo, Octagón and El Cobarde II and El Texano, Perro Aguayo Jr. and Sangre Chicana.  In the semi-main event Heavy Metal and El Felino defended the hair of their father, referee Pepe \"Tropi\" Casas while Kick Boxer and Thai Boxer defended the hair of referee El Tirantes.  As a result, El Tirantes had his hair shaved off after the match."
+      },
+      {
+        "title": "Protection racket",
+        "text": "A protection racket is a scheme whereby a group provides protection to businesses or other groups through violence outside the sanction of the law.  Through the credible threat of violence, the racketeers deter people from swindling, robbing, injuring, sabotaging or otherwise harming their clients.  Protection rackets tend to appear in markets where the police and judiciary cannot be counted on to provide legal protection, either because of incompetence (as in weak or failed states) or illegality (black markets)."
+      },
+      {
+        "title": "E. Gordon Gee",
+        "text": "Elwood Gordon Gee (born February 2, 1944) is an American academic and is currently serving his second term as President of West Virginia University.  He has served as the chief executive at several universities in the United States, previously serving at Ohio State University.  Gee had been heading an Ohio State-based think tank following his retirement from the Ohio State presidency on July 1, 2013.  He retired in response to a series of controversies relating to comments he made, the last of which involved anti-Catholic comments allegedly made in jest about the University of Notre Dame.  His resignation thus ended his second term as the president; he had previously served as president of Ohio State from 1990 to 1997."
+      }
+    ]
+  },
+  {
+    "qid": "he28",
+    "difficulty": "easy",
+    "question": "The John Messer Barn is a historic structure within the Great Smoky Mountains National Park in Sevier County, Tennessee, this barn is a different Messer Barn in which valley, in the Great Smoky Mountains of North Carolina, located in the Southeastern United States?",
+    "gold_answer": "Cataloochee",
+    "context": [
+      {
+        "title": "Oconaluftee (Great Smoky Mountains)",
+        "text": "Oconaluftee is the name of a river valley in the Great Smoky Mountains of North Carolina, located in the Southeastern United States.  Formerly the site of a Cherokee village and Appalachian community, the valley's bottomland is now home to the main entrance to the North Carolina side of the Great Smoky Mountains National Park."
+      },
+      {
+        "title": "Elkmont, Tennessee",
+        "text": "Elkmont is a region situated in the upper Little River Valley of the Great Smoky Mountains of Sevier County, in the U.S. state of Tennessee.  Throughout its history, the valley has been home to a pioneer Appalachian community, a logging town, and a resort community.  Today, Elkmont is home to a large campground, ranger station, and historic district maintained by the Great Smoky Mountains National Park."
+      },
+      {
+        "title": "Walker Sisters Place",
+        "text": "The Walker Sisters Place was a homestead in the Great Smoky Mountains of Sevier County, in the U.S. state of Tennessee.  The surviving structures— which include the cabin, springhouse, and corn crib— were once part of a farm that belonged to the Walker Sisters— five spinster sisters who became local legends due to their adherence to traditional ways of living.  The sisters inherited the farm from their father, and after the Great Smoky Mountains National Park was formed in the 1930s, they obtained a lifetime lease.  The National Park Service gained control of the property in 1964 when the last Walker sister died.  The surviving structures were placed on the National Register of Historic Places in 1976."
+      },
+      {
+        "title": "Tyson McCarter Place",
+        "text": "The Tyson McCarter Place was a homestead located in the Great Smoky Mountains of Sevier County, in the U.S. state of Tennessee.  Before the establishment of the Great Smoky Mountains National Park in the 1930s, the homestead belonged to mountain farmer Jacob Tyson McCarter (1878–1950), a descendant of some of the area's earliest European settlers.  While McCarter's house is no longer standing, several outbuildings— including a barn, springhouse, corn crib, and smokehouse— have survived, and have been placed on the National Register of Historic Places."
+      }
+    ]
+  },
+  {
+    "qid": "he29",
     "difficulty": "easy",
     "question": "The Swedish-British entertainment studio executive and film executive producer, who was the Executive producer for a 2016 American action thriller film directed by Babak Najafi, currently serve?",
     "gold_answer": "CEO of Lionsgate UK & Europe",
@@ -384,55 +696,55 @@
     ]
   },
   {
-    "qid": "he17",
+    "qid": "he30",
     "difficulty": "easy",
-    "question": "Mookychick is an independent daily online magazine and community with more than 100,000 readers a month and over 5,000 forum members, content includes analysis of current sociopolitical events, social and cultural trends, alternative fashion, movies, books, music and arts and crafts from a feminist perspective, in contrast with feminist publications and communities such as which women's lifestyle magazine that is published six times a year, and is published by Debbie Stoller and Laurie Henzel?",
-    "gold_answer": "BUST",
+    "question": "The Time: Night, is a novella by which Russian writer, novelist and playwright?",
+    "gold_answer": "Lyudmila Stefanovna Petrushevskaya",
     "context": [
       {
-        "title": "Driven (Canadian magazine)",
-        "text": "Driven was a Canadian men's lifestyle magazine, started in 2004 by publisher Michel Crépault based on a concept presented and developed by former editor-in-chief Michael La Fave and creative director Laurance Yap.  \"Driven\" was published six times a year.  It offered a combination of automotive, fashion, technology, travel and leisure content for affluent Canadian men featuring exotic locations and automobiles.  The headquarters of the magazine was in Toronto.  In 2007 the magazine became the best-selling men's magazine in Canada with a circulation of 150,000 copies."
+        "title": "The Time: Night",
+        "text": "The Time: Night (Russian: Время ночь ) is a novella by Russian author Lyudmila Petrushevskaya.  It was originally published in Russian in the literary journal \"Novy Mir\" in 1992 and translated into English by Sally Laird in 1994.  In 1992 it was shortlisted for the Russian Booker Prize."
       },
       {
-        "title": "Autostraddle",
-        "text": "Autostraddle is an independently owned online magazine and social network for lesbian, bisexual, and queer women (cis and trans) as well as non-binary people.  The website is a \"politically progressive queer feminist media source\" that features content covering LGBT and feminist news, politics, opinion, culture, arts and entertainment as well as lifestyle content such as DIY crafting, sex, relationships, fashion, food and technology.  Autostraddle was founded by CEO, CFO and Editor-in-Chief Marie \"Riese\" Bernard and Design Director Alexandra Vega in March 2009.  The senior editorial team consists of Riese Bernard, Laneia Jones, Rachel Kincaid, Yvonne Marquez, and Heather Hogan.  Feminist Collections has highlighted Autostraddle's successful balance between serious, political and light-hearted articles."
+        "title": "Grigory Kugushev",
+        "text": "Prince Grigory Vasilyevich Kugushev (Russian: Григорий Васильевич Кугушев , 17 March 1824, – 3 October 1871) was a Russian writer, poet and playwright whose comedies (including \"Goluboi Kapot\", Blue Hood; \"Pari\", The Bet; \"Priyomysh\", Foster) had great (if not very lasting) success in the Russian Imperial Theatres in 1850s.  More substantial and critically acclaimed were Kugushev's works of fiction, notably \"Kornet Otletayev\" (Корнет Отлетаев, a three-part novella, first published by \"Russky Vestnik\" in 1856) and the four-part novel \"Postoronneye Vliyaniye\" (Постороннее влияние, 1858—1859).  He also wrote the libretto for the epic drama opera \"Mazeppa\" (1859) by Baron"
       },
       {
-        "title": "Bust (magazine)",
-        "text": "BUST is a women's lifestyle magazine that is published six times a year.  The magazine is published by Debbie Stoller and Laurie Henzel."
+        "title": "Alexander Bestuzhev",
+        "text": "Alexander Alexandrovich Bestuzhev (Russian: Алекса́ндр Алекса́ндрович Бесту́жев ; ] ; (3 November [O.S. 23 October] 1797 19 June [O.S. 7 June] 1837 ), was a Russian writer and Decembrist.  After the Decembrist revolt he was sent into exile to Caucasus where Russian Empire was waging the war against the Circassians.  There writing under the pseudonym Marlinsky (Russian: Марли́нский ; ] ) he became known as a romantic poet, short story writer and novelist.  He was killed there in a skirmish."
       },
       {
-        "title": "Alternative fashion",
-        "text": "Alternative fashion is fashion that, at least at one time, stood apart from mainstream commercial fashion.  Alternative fashion includes the fashions of specific subcultures such as emo, scene, Goth subculture, Hip hop, Heavy metal fashion, and Cyberpunk, Lolita fashion however it is not limited to these.  In general, alternative, or 'alt', fashion does not conform to widely popular style trends of the times that have widespread popularity.  It may exhibit itself as a fringe style – extremely attention-grabbing and more artistic than practical – but it can also develop from anti-fashion sentiments that focus on simplistic utilitarian drives (e.g.: grunge fashion, which was largely based around comfort and availability)."
+        "title": "Sonechka",
+        "text": "Sonechka is a novella and collection of short stories by Russian writer Lyudmila Ulitskaya.  It was originally published in Russian in the literary journal \"Novy Mir\" in 1992, and translated into English by Arch Tait in 2005.  \"Sonechka\" was nominated for the Russian Booker Prize."
       }
     ]
   },
   {
-    "qid": "he18",
+    "qid": "he31",
     "difficulty": "easy",
-    "question": "Jane's Addiction and Weeping Willows, play which genre of music?",
-    "gold_answer": "rock",
+    "question": "Which private research university is located in Chestnut Hill, Massachusetts Boston College or Stanford University?",
+    "gold_answer": "Boston College",
     "context": [
       {
-        "title": "Jane's Addiction discography",
-        "text": "The discography of Jane's Addiction, an American alternative rock band, consists of four studio albums, two live albums, four compilation albums, seventeen singles and ten music videos. Jane's Addiction was formed in Los Angeles, California in 1985.  The band is composed of Perry Farrell (vocals), Dave Navarro (guitar), Eric Avery (bass) and Stephen Perkins (drums).  After breaking up in 1991, Jane's Addiction briefly toured in 1997, reunited in 2001 and then parted ways in 2004.  Jane's Addiction have since reunited again in 2008, with founding member Eric Avery returning on bass (Avery has since left again).  The band's varied musical style have influences rooted in punk rock and heavy metal."
+        "title": "Chestnut Hill West station",
+        "text": "Chestnut Hill West station is a SEPTA Regional Rail station in Philadelphia, Pennsylvania.  Located at 9 West Evergreen Avenue in the Chestnut Hill neighborhood, it serves the Chestnut Hill West Line.  It was originally built by the Philadelphia, Germantown and Chestnut Hill Railroad between 1883 and 1884, and later acquired by the Pennsylvania Railroad.  In 1918, when the line was electrified, the station was rebuilt to accommodate the upgrade."
       },
       {
-        "title": "Christmas Time Has Come",
-        "text": "Christmas Time Has Come was released on 12 November 2014, and is a Weeping Willows Christmas album."
+        "title": "List of Boston College Eagles football seasons",
+        "text": "The Boston College Eagles college football team competes as part of the National Collegiate Athletic Association (NCAA) Division I Football Bowl Subdivision, representing Boston College in the Atlantic Division of the Atlantic Coast Conference (ACC).  Boston College has played their home games at Alumni Stadium in Chestnut Hill, Massachusetts since 1957.  Boston College claims one national championship in 1940, though the NCAA doesn't recognize it, and have played in 22 Bowl Games, winning 13.  With 626 wins over 120 seasons of football, Boston College ranks 51st all-time in win-loss records in the NCAA.  Boston College played as an Independent until joining the Big East Conference in 1991.  Boston College later joined the Atlantic Coast Conference in 2005."
       },
       {
-        "title": "Weeping Willows",
-        "text": "Weeping Willows is a Swedish indie rock group that started in 1995."
+        "title": "Chestnut Hill (Leesburg, Virginia)",
+        "text": "Chestnut Hill is an 18th-century Federal-style mansion north of Leesburg in Loudoun County, Virginia, United States.  Chestnut Hill was a home of Thomson Francis Mason (1785–21 December 1838), a prominent jurist, lawyer, councilman, judge, mayor of Alexandria, and grandson of Founding Father of the United States George Mason.  Chestnut Hill was also a home of Mason's son, Dr. John \"Frank\" Francis Mason (28 August 1828–4 August 1897).  It is located at 13263 Chestnut Hill Lane near Leesburg."
       },
       {
-        "title": "Magnus Carlson",
-        "text": "Magnus Carlson (born 3 August 1968) is a Swedish singer, composer and songwriter.  He is a member of the Swedish indie rock group Weeping Willows, and has released several solo albums.  In 2016 he participated in Så mycket bättre which was broadcast on TV4."
+        "title": "Old Chestnut Hill Historic District",
+        "text": "The Old Chestnut Hill Historic District encompasses the historic residential heart of the Newton portion of Chestnut Hill, Massachusetts.  When first listed on the National Register of Historic Places in 1986, the district extended along Hammond Street, between Beacon Street and the MBTA Green Line right-of-way, and along Chestnut Hill Road between Hammond and Essex, including properties along a few adjacent streets.  The district was expanded in 1990 to include more of Chestnut Hill Road and Essex Road, Suffolk Road and the roads between it and Hammond, and a small section south of the Green Line including properties on Hammond Street, Longwood Road, and Middlesex Road.  A further expansion in 1999 added a single property on Suffolk Road."
       }
     ]
   },
   {
-    "qid": "he19",
+    "qid": "he32",
     "difficulty": "easy",
     "question": "When a Man Falls in Love, is a 2013 South Korean television series, starring Song Seung-heon, Shin Se-kyung, Chae Jung-an, and which South Korean actor, born on ?",
     "gold_answer": "July 5, 1984",
@@ -456,26 +768,186 @@
     ]
   },
   {
-    "qid": "he20",
+    "qid": "he33",
     "difficulty": "easy",
-    "question": "What male actor starred in The Messenger?",
-    "gold_answer": "Robert Sheehan",
+    "question": "Dixit Dominus is a psalm setting by who, which was a German, later British, baroque composer who spent the bulk of his career in London, becoming well known for his operas, oratorios, anthems, and organ concertos?",
+    "gold_answer": "George Frideric Handel",
     "context": [
       {
-        "title": "Producers Guild Film Award for Best Male Debut",
-        "text": "The Producers Guild Film Award for Best Male Debut (previously known as the Apsara Award for Best Male Debut) is given by the producers of the film and television guild as part of its annual award ceremony for Hindi films, to recognise a male actor who has delivered an outstanding performance in his debut film.  While the official awards ceremony started in 2004, awards for the best male debut commenced four years later."
+        "title": "Psalm 112 (Bruckner)",
+        "text": "Bruckner's Psalm 112, WAB 35, is a psalm setting for eight-part double mixed choir and full orchestra.  It is a setting of a German version of Psalm 113, which is Psalm 112 in the Vulgata."
       },
       {
-        "title": "Sverrir Gudnason",
-        "text": "Sverrir Gudnason (in Icelandic \"Sverrir Páll Guðnason\"), born 12 September 1978 in Lund, Sweden, is a Swedish actor of Icelandic origin.  He starred in the 2007 television series How Soon Is Now.  Gudnason was born in Sweden, but brought up in Reykjavík, Iceland.  He moved with his family to Tyresö, Sweden in 1990 when his father found work as a professor at the Royal Institute of Technology.  At the 2009 Shanghai International Film Festival he received the award for best male actor for his role in the Swedish/Danish film \"Original\".  He has since played the role of Pontus Höijer in the second series of \"Wallander\" as well as leading roles in productions at both Gothenburg's and Stockholm's city theatres."
+        "title": "Organ concertos, Op. 7 (Handel)",
+        "text": "The Handel organ concertos Op 7, HWV 306–311, refer to the six organ concertos for organ and orchestra composed by George Frideric Handel in London between 1740 and 1751, published posthumously in 1761 by the printing company of John Walsh.  They were written for performance during Handel's oratorios, contain almost entirely original material, including some of his most popular and inspired movements."
       },
       {
-        "title": "Indian Telly Award for Best Actor in a Lead Role",
-        "text": "Indian Telly Award for Best Actor in a Lead Role – Male is an award given by IndianTelevision.com as part of its annual Indian Telly Awards for TV serials, to recognize a male actor who has delivered an outstanding performance in a leading role."
+        "title": "Psalm 114 (Bruckner)",
+        "text": "Bruckner's Psalm 114, WAB 36, is a psalm setting of verses 1 to 9 of a German version of Psalm 116, which is Psalm 114 in the Vulgata."
       },
       {
-        "title": "Robert Sheehan",
-        "text": "Robert Michael Sheehan (Irish: \"Roibeárd Mícheál Ó Siodhacháin\" ; born 7 January 1988) is an Irish actor.  He is best known for television roles such as Nathan Young in \"Misfits\" and Darren in \"Love/Hate\", as well as the 2009 film \"Cherrybomb\" alongside Rupert Grint.  He also co-starred in the film \"Killing Bono\" as Ivan McCormick.  In late 2011 he starred in John Crowley's production of J. M. Synge's comic play \"The Playboy of the Western World\" at the Old Vic Theatre in London."
+        "title": "George Frideric Handel",
+        "text": "George Frideric (or Frederick) Handel ( ; born Georg Friedrich Händel ] ; 23 February 1685 (O.S.) [(N.S.) 5 March] – 14 April 1759) was a German, later British, baroque composer who spent the bulk of his career in London, becoming well known for his operas, oratorios, anthems, and organ concertos. Handel received important training in Halle and worked as a composer in Hamburg and Italy before settling in London in 1712; he became a naturalised British subject in 1727.  He was strongly influenced both by the great composers of the Italian Baroque and by the middle-German polyphonic choral tradition."
+      }
+    ]
+  },
+  {
+    "qid": "he34",
+    "difficulty": "easy",
+    "question": "an Emmy Award winner and two-time Tony Award winner, was on the episode 15 of the third season of \"Chuck\". what is her name ?",
+    "gold_answer": "Swoosie Kurtz",
+    "context": [
+      {
+        "title": "Jane Alexander",
+        "text": "Jane Alexander (born October 28, 1939) is an American author, actress and former director of the National Endowment for the Arts.  She is a Tony Award winner and two-time Emmy Award winner."
+      },
+      {
+        "title": "Rafael Bello",
+        "text": "Rafael Emilio Bello Castro, known professionally as Rafael Bello (pronounced Rafael \"BE-YO\"), is a Dominican television and radio personality based in New York City.  Bello, a two-time Emmy award winner, currently serves as the Weather and Entertainment Anchor in \"Al Despertar\", WXTV WXTV-DT Univision 41 Nueva York' early morning newscast.  Bello formerly served as the Traffic and Entertainment Anchor on WNJU Telemundo 47 in \"Noticiero 47 Primera Edicion\" and also hosted feature and entertainment segments including his Emmy Award winner for best entertainment segment under the name \"Pa la Calle con Rafa\"."
+      },
+      {
+        "title": "Chuck Versus the Role Models",
+        "text": "\"Chuck Versus the Role Models\" is episode 15 of the third season of \"Chuck\".  Chuck and Sarah are assigned to train under Craig and Laura Turner (Fred Willard and Swoosie Kurtz), a married CIA team who, despite their impeccable record, hate one another.  The Turners' stormy relationship forces Chuck and Sarah to wonder if they're doomed with the same fate.  Meanwhile, Casey must train the newest member of the team - Morgan."
+      },
+      {
+        "title": "Patti LuPone",
+        "text": "Patti Ann LuPone (born April 21, 1949) is an American actress and singer, best known for her work in stage musicals.  She is a two-time Grammy Award winner and a two-time Tony Award winner.  She is also a 2006 American Theater Hall of Fame inductee."
+      }
+    ]
+  },
+  {
+    "qid": "he35",
+    "difficulty": "easy",
+    "question": "Jinchang and Liling, are located in which country?",
+    "gold_answer": "China",
+    "context": [
+      {
+        "title": "Liling",
+        "text": "Liling () is a county-level city and the 12th most populous county-level division in Hunan Province, China; it is under the administration of Zhuzhou prefecture-level City.  Located on the middle eastern margin of the province, the city is bordered to the north by Liuyang City, to the west by Lusong District and Zhuzhou County, to the south by You County, to the east by Xiangdong District of Yichun, Shangli County of Jiangxi.  Liling City covers 2,157 km2 with registered population of 978,900 and resident population of 1,060,000 (as of 2015)."
+      },
+      {
+        "title": "Jinchang",
+        "text": "Jinchang () is a prefecture-level city in the centre of Gansu province, People's Republic of China, bordering Inner Mongolia to the north."
+      }
+    ]
+  },
+  {
+    "qid": "he36",
+    "difficulty": "easy",
+    "question": "Don Barry Mason was the founder of the Psychedelic Shamanistic Institute (PSI), which other member that's Welsh, that died on 10 April 2016?",
+    "gold_answer": "Dennis Howard Marks",
+    "context": [
+      {
+        "title": "Australian twenty five-cent coin",
+        "text": "The twenty five-cent coin of the Australian decimal currency system was issued as a part of a 14 coin collectors set on from the 10 April 2016 to the 23 April 2016.  The coins were sold for $3 in conjunction with a local news corp paper."
+      },
+      {
+        "title": "Charles Cardoza Poindexter",
+        "text": "Charles Cardoza Poindexter (March 10, 1880 – June 3, 1913) was a professor at Fisk University.  Poindexter was also known for being the precursor, but not a Founder, of the oldest intercollegiate fraternity for blacks in America, Alpha Phi Alpha, who later on became a prominent member and influence in Omega Psi Phi, using his earlier experience to develop much of the framework.  He is credited with suggesting the \"Phi\" in the name Omega Psi Phi, as well as the color \"Old Gold\"."
+      },
+      {
+        "title": "2016–17 British and Irish Cup",
+        "text": "The 2016–17 British and Irish Cup was the eighth season of the annual rugby union competition for second tier, semi-professional clubs from Britain and Ireland.  London Welsh are the defending champions having won the 2015–16 final against Yorkshire Carnegie 10–33 at Headingley Carnegie Stadium, Leeds on 10 April 2016.  There have been six different winners and six different losing finalists in the seven seasons of its existence.  The format of the competition is similar to last season with Scottish clubs not competing.  For the second consecutive season the four Welsh teams are the reserve sides of the teams competing in the Pro12 competition instead of clubs from the Welsh Premier Division."
+      },
+      {
+        "title": "The Ride Tour",
+        "text": "The Ride Tour is the ongoing second concert tour by English indie rock band Catfish and the Bottlemen, in support of the group's second studio album \"The Ride\".  The tour was announced in February 2016 and began on 4 April 2016, in Glasgow, United Kingdom at the O2 Academy Glasgow.  The tour is planned to travel across Europe and North America with a total of 50 shows planned so far.  On 22 February 2016, the band announced an April 2016 stint of shows in UK, including Glasgow, Halifax, Southend On Sea, Doncaster, London and Brighton.  The band will also headline several festivals across the UK throughout the summer, including Liverpool's 'Sound City' in May 2016, Bristol's Summer Series in July 2016 and Manchester's Castlebowl in July 2016.  On 14 March 2016 it was announced that the band will play several dates in North America in June 2016.  The band are also scheduled to play several European festivals this year, including Scotland's T in the Park, Spain's Benicàssim festival, Cumbria's Kendal Calling in July 2016, Cornwall's Boardmasters Festival in August 2016 and Germany's Lollapalooza in September 2016.  The band will also support Welsh rock band Stereophonics on their Wrexham, Racecourse Ground stadium gig in July 2016, as part of their Keep the Village Alive tour."
+      }
+    ]
+  },
+  {
+    "qid": "he37",
+    "difficulty": "easy",
+    "question": "he Central Harbourfront is a waterfront site it is the result of Central and Wan Chai Reclamation, and it sits to the east of the International Finance Centre (IFC), a skyscraper and an integrated commercial development on the waterfront of the Central District, of which territory?",
+    "gold_answer": "Hong Kong",
+    "context": [
+      {
+        "title": "Central–Wan Chai Bypass",
+        "text": "The Central–Wan Chai Bypass is a four-kilometre trunk road, currently under construction, running between Sheung Wan and Fortress Hill on Hong Kong Island.  The original design consists of a 2.3 km dual three-lane tunnel running under new reclamation areas which will be provided by Central and Wan Chai Reclamation project, and also connections to Connaught Road West flyover and Island Eastern Corridor.  When completed, it will substitute Connaught Road Central, Harcourt Road, Gloucester Road and Victoria Park Road to be part of Route 4."
+      },
+      {
+        "title": "Wan Chai District Council",
+        "text": "Wan Chai District Council () is the district council for the Wan Chai District in Hong Kong.  It is one of 18 district councils.  Wan Chai District currently consists of 13 members, of which the district is divided into 13 constituencies, electing a total of 13 members.  The latest election was held on 22 November 2015."
+      },
+      {
+        "title": "Wan Chai",
+        "text": "Wan Chai ( ) is a metropolitan area situated at the western part of the Wan Chai District on the northern shore of Hong Kong Island, in Hong Kong.  Its other boundaries are Canal Road to the east, Arsenal Street to the west and Bowen Road to the south.  The area north of Gloucester Road is often referred to as Wan Chai North.  Wan Chai is one of the busiest commercial areas in Hong Kong with offices of many small and medium-sized companies.  Wan Chai North features office towers, parks, hotels and an international conference and exhibition centre.  As one of the first areas developed in Hong Kong, the locale is densely populated yet with noticeable residential zones facing urban decay.  Arousing considerable public concern, the government has undertaken several urban renewal projects in recent years.  There are many unique landmarks and skyscrapers within the area, most notably the Hong Kong Convention and Exhibition Centre (HKCEC), Central Plaza and Hopewell Centre."
+      },
+      {
+        "title": "Wan Chai Cargo Handling Basin",
+        "text": "The Wan Chai Cargo Handling Basin () is situated in Wan Chai, Hong Kong Island, Hong Kong.  A prime site along Victoria Harbour, it is adjacent to the Wan Chai Sports Ground and located between the Hong Kong Convention and Exhibition Centre and the Royal Hong Kong Yacht Club.  The site has been earmarked under the Central and Wan Chai Reclamation project for the construction of a highway linking Central with Causeway Bay, aimed at easing traffic congestion along the northern coast of Hong Kong Island."
+      }
+    ]
+  },
+  {
+    "qid": "he38",
+    "difficulty": "easy",
+    "question": "What magazine an American monthly food and lifestyle magazine founded in 1987, Cooking Light or Hot Rod?",
+    "gold_answer": "Cooking Light",
+    "context": [
+      {
+        "title": "Hot Rod (magazine)",
+        "text": "Hot Rod is a monthly American car magazine devoted to hot rodding, drag racing, and muscle cars — modifying automobiles for performance and appearance."
+      },
+      {
+        "title": "Hot Rod Lincoln",
+        "text": "\"Hot Rod Lincoln\" is a song by American singer-songwriter Charlie Ryan, first released in 1955.  It was written as an answer song to Arkie Shibley's 1951 hit \"Hot Rod Race\" which describes a race in San Pedro, Los Angeles between two hot rod cars, a Ford and a Mercury, which stay neck-and-neck until both are overtaken by \"a kid in a hopped-up Model A\".  \"Hot Rod Lincoln\" is sung from the perspective of this third driver, whose own hot rod is a Ford Model A body with a Lincoln-Zephyr V12 engine, overdrive, a four-barrel carburetor, 4:11 gear ratio, and safety tubes."
+      },
+      {
+        "title": "California Hot Rod Reunion",
+        "text": "California Hot Rod Reunion is a gathering of drag racers, hot rod enthusiasts and street rodders held in Bakersfield, California.  The event was created by Steve Gibbs, vice-president of the National Hot Rod Association, in October 1992, as a one-time event to gather some of the old drag racers together.  It has since become an annual event in early October at Auto Club Famoso Raceway outside Bakersfield.  It has also spawned the National Hot Rod Reunion, held each year in Bowling Green KY.  Honorees are named at each year's reunion.  The Honorees are pioneers in the sport of drag racing and hot rodding.  The 25th annual event, presented by AAA and associate sponsor Good Vibrations Motorsports, will be held Oct 21-23, 2016."
+      },
+      {
+        "title": "Andrea Chesman",
+        "text": "Chesman is a contributor to magazines and newspapers, including \"Fine Cooking\", \"Food & Wine\", \"The New York Times\", \"Cooking Light\", \"Vegetarian Times\", \"Organic Gardening\", \"Natural Health\", \"New England Monthly\", \"The Burlington Free Press\", \"Rocky Mountain News, The Denver Post, Edible Green Mountains\" and many other publications.  She was contributing food editor for \"Vermont Life\" magazine for twelve years."
+      }
+    ]
+  },
+  {
+    "qid": "he39",
+    "difficulty": "easy",
+    "question": "Jane's Addiction and Weeping Willows, play which genre of music?",
+    "gold_answer": "rock",
+    "context": [
+      {
+        "title": "Jane's Addiction discography",
+        "text": "The discography of Jane's Addiction, an American alternative rock band, consists of four studio albums, two live albums, four compilation albums, seventeen singles and ten music videos. Jane's Addiction was formed in Los Angeles, California in 1985.  The band is composed of Perry Farrell (vocals), Dave Navarro (guitar), Eric Avery (bass) and Stephen Perkins (drums).  After breaking up in 1991, Jane's Addiction briefly toured in 1997, reunited in 2001 and then parted ways in 2004.  Jane's Addiction have since reunited again in 2008, with founding member Eric Avery returning on bass (Avery has since left again).  The band's varied musical style have influences rooted in punk rock and heavy metal."
+      },
+      {
+        "title": "Christmas Time Has Come",
+        "text": "Christmas Time Has Come was released on 12 November 2014, and is a Weeping Willows Christmas album."
+      },
+      {
+        "title": "Weeping Willows",
+        "text": "Weeping Willows is a Swedish indie rock group that started in 1995."
+      },
+      {
+        "title": "Magnus Carlson",
+        "text": "Magnus Carlson (born 3 August 1968) is a Swedish singer, composer and songwriter.  He is a member of the Swedish indie rock group Weeping Willows, and has released several solo albums.  In 2016 he participated in Så mycket bättre which was broadcast on TV4."
+      }
+    ]
+  },
+  {
+    "qid": "he40",
+    "difficulty": "easy",
+    "question": "Pearl Lowe and Alison Goldfrapp, is of which nationality?",
+    "gold_answer": "English",
+    "context": [
+      {
+        "title": "List of songs recorded by Goldfrapp",
+        "text": "English electronic music duo Goldfrapp have recorded songs for five studio albums, one compilation album and guest features.  After signing a contract with record label Mute Records in August 1999, Goldfrapp began to work on their debut studio album, \"Felt Mountain\", which was released in 2000.  Alison Goldfrapp and Will Gregory wrote almost all of its songs, and would continue to do so for their later albums.  The album's only collaboration was with Tim Norfolk and Bob Locke of the band Startled Insects on the album's third single \"Human\".  The following year, Goldfrapp collaborated with Adrian Utley on the song \"End Titles\" for the \"Accelerator\" soundtrack."
+      },
+      {
+        "title": "Anymore (Goldfrapp song)",
+        "text": "\"Anymore\" is a song performed by English group Goldfrapp from their seventh studio album \"Silver Eye\" (2017).  It was released as a CD single and digital download on 23 January 2017 through Mute Records.  The song was written and produced by Alison Goldfrapp and William Owen Gregory, with additional production coming from The Haxan Cloak and John Congleton.  The song incorporates several genres, including dance-pop, electronica and synth-pop, and takes influence from disco and glitch music.  Critics noticed similarities between \"Anymore\" and the music from their 2003 album \"Black Cherry\".  Lyrically, Goldfrapp sings in robotic vocals about romance, which one critic felt referenced their 2005 single \"Ooh La La\"."
+      },
+      {
+        "title": "Alive (Goldfrapp song)",
+        "text": "\"Alive\" is a song by English electronic music duo Goldfrapp from their fifth studio album, \"Head First\" (2010).  It was written and produced by Alison Goldfrapp and Will Gregory, with additional production by Richard X.  The song was released on 7 June 2010 as the album's second single.  The single failed to chart on the UK Singles Chart, while becoming Goldfrapp's fifth single to top the Hot Dance Club Songs chart in the United States."
+      },
+      {
+        "title": "Pearl Lowe",
+        "text": "Pearl Lowe (born Pearl Samantha Davis; 1970), is an English fashion and textiles designer, and former singer-songwriter."
       }
     ]
   }

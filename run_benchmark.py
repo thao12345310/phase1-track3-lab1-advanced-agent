@@ -4,7 +4,7 @@ import time
 from pathlib import Path
 import typer
 from rich import print
-from src.reflexion_lab.agents import ReActAgent, ReflexionAgent
+from src.reflexion_lab.agents import ReActAgent, ReflexionAgent, LATSAgent
 from src.reflexion_lab.reporting import build_report, save_report
 from src.reflexion_lab.utils import load_dataset, save_jsonl
 
@@ -17,14 +17,17 @@ _get_structured_eval: callable = None
 
 @app.command()
 def main(
-    dataset: str = "data/hotpot_mini.json",
+    dataset: str = "data/hotpot_full.json",
     out_dir: str = "outputs/sample_run",
     reflexion_attempts: int = 3,
+    lats_depth: int = 2,
+    lats_branches: int = 3,
     mode: str = "ollama",
 ) -> None:
     examples = load_dataset(dataset)
     print(f"[bold blue]Loaded {len(examples)} examples from {dataset}[/bold blue]")
-    print(f"[bold blue]Mode: {mode} | Reflexion attempts: {reflexion_attempts}[/bold blue]\n")
+    print(f"[bold blue]Mode: {mode} | Reflexion attempts: {reflexion_attempts}[/bold blue]")
+    print(f"[bold blue]LATS depth: {lats_depth} | LATS branches: {lats_branches}[/bold blue]\n")
 
     # Import trace functions if using ollama
     trace_log_getter = None
@@ -47,6 +50,7 @@ def main(
 
     react = ReActAgent()
     reflexion = ReflexionAgent(max_attempts=reflexion_attempts)
+    lats = LATSAgent(max_depth=lats_depth, num_branches=lats_branches)
 
     t_start = time.time()
 
@@ -70,16 +74,28 @@ def main(
         reflexion_records.append(record)
 
     reflexion_correct = sum(1 for r in reflexion_records if r.is_correct)
-    print(f"\n[bold green]Reflexion: {reflexion_correct}/{len(reflexion_records)} correct ({reflexion_correct/len(reflexion_records)*100:.1f}%)[/bold green]")
+    print(f"\n[bold green]Reflexion: {reflexion_correct}/{len(reflexion_records)} correct ({reflexion_correct/len(reflexion_records)*100:.1f}%)[/bold green]\n")
+
+    # --- LATS pass ---
+    print(f"[bold cyan]═══ LATS Agent (depth={lats_depth}, branches={lats_branches}) ═══[/bold cyan]")
+    lats_records = []
+    for i, example in enumerate(examples, 1):
+        print(f"[bold]({i}/{len(examples)}) {example.qid}:[/bold] {example.question[:60]}...")
+        record = lats.run(example)
+        lats_records.append(record)
+
+    lats_correct = sum(1 for r in lats_records if r.is_correct)
+    print(f"\n[bold green]LATS: {lats_correct}/{len(lats_records)} correct ({lats_correct/len(lats_records)*100:.1f}%)[/bold green]")
 
     t_total = time.time() - t_start
     print(f"[dim]Total wall time: {t_total:.1f}s[/dim]\n")
 
     # --- Save outputs ---
-    all_records = react_records + reflexion_records
+    all_records = react_records + reflexion_records + lats_records
     out_path = Path(out_dir)
     save_jsonl(out_path / "react_runs.jsonl", react_records)
     save_jsonl(out_path / "reflexion_runs.jsonl", reflexion_records)
+    save_jsonl(out_path / "lats_runs.jsonl", lats_records)
     report = build_report(all_records, dataset_name=Path(dataset).name, mode=mode)
     json_path, md_path = save_report(report, out_path)
     print(f"[green]Saved[/green] {json_path}")
