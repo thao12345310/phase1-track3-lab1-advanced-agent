@@ -14,12 +14,18 @@ class QAExample(BaseModel):
     context: list[ContextChunk]
 
 class JudgeResult(BaseModel):
-    # TODO: Học viên định nghĩa các trường cần thiết cho kết quả đánh giá (score, reason, ...)
-    pass
+    """Result of evaluating a predicted answer against the gold answer."""
+    score: int = Field(description="1 if correct, 0 if incorrect")
+    reason: str = Field(default="", description="Explanation for the score")
+    missing_evidence: list[str] = Field(default_factory=list, description="Evidence the answer missed")
+    spurious_claims: list[str] = Field(default_factory=list, description="Incorrect claims in the answer")
 
 class ReflectionEntry(BaseModel):
-    # TODO: Học viên định nghĩa các trường cần thiết cho một mục reflection (attempt_id, lesson, strategy, ...)
-    pass
+    """A single reflection produced after a failed attempt."""
+    attempt_id: int = Field(description="Which attempt this reflection follows")
+    failure_reason: str = Field(default="", description="What went wrong")
+    lesson: str = Field(default="", description="General takeaway from the failure")
+    next_strategy: str = Field(default="", description="Concrete plan for the next attempt")
 
 class AttemptTrace(BaseModel):
     attempt_id: int
