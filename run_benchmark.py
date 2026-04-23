@@ -10,6 +10,10 @@ from src.reflexion_lab.utils import load_dataset, save_jsonl
 
 app = typer.Typer(add_completion=False)
 
+# Will be lazily imported when mode == 'ollama'
+_clear_structured_eval: callable = None
+_get_structured_eval: callable = None
+
 
 @app.command()
 def main(
@@ -26,10 +30,18 @@ def main(
     trace_log_getter = None
     if mode == "ollama":
         try:
-            from src.reflexion_lab.ollama_runtime import get_trace_log, clear_trace_log
+            from src.reflexion_lab.ollama_runtime import (
+                get_trace_log, clear_trace_log,
+                get_structured_eval_results, clear_structured_eval_results,
+            )
             clear_trace_log()
+            clear_structured_eval_results()
             trace_log_getter = get_trace_log
-            print("[dim]Tracing enabled — all LLM calls will be recorded[/dim]\n")
+            global _clear_structured_eval, _get_structured_eval
+            _clear_structured_eval = clear_structured_eval_results
+            _get_structured_eval = get_structured_eval_results
+            print("[dim]Tracing enabled — all LLM calls will be recorded[/dim]")
+            print("[dim]Structured evaluator enabled — multi-dimensional scoring active[/dim]\n")
         except ImportError:
             pass
 
@@ -93,6 +105,35 @@ def main(
         print(f"  Total tokens:    {total_tokens:,}")
         print(f"  Avg latency:     {avg_latency:.0f}ms/call")
         print(f"  Trace file:      {trace_path}")
+
+    # --- Save structured evaluation summary ---
+    if _get_structured_eval is not None:
+        from src.reflexion_lab.structured_evaluator import summarize_evaluations
+        eval_results = _get_structured_eval()
+        if eval_results:
+            eval_summary = summarize_evaluations(eval_results)
+            eval_path = out_path / "structured_eval_summary.json"
+            eval_detail_path = out_path / "structured_eval_details.json"
+            eval_path.write_text(
+                json.dumps(eval_summary.to_dict(), indent=2, ensure_ascii=False),
+                encoding="utf-8",
+            )
+            eval_details = [r.to_dict() for r in eval_results]
+            eval_detail_path.write_text(
+                json.dumps(eval_details, indent=2, ensure_ascii=False),
+                encoding="utf-8",
+            )
+            print(f"[green]Saved[/green] {eval_path}")
+            print(f"[green]Saved[/green] {eval_detail_path}")
+            print(f"\n[bold magenta]═══ Structured Evaluation Summary ═══[/bold magenta]")
+            print(f"  Total evaluations:    {eval_summary.total}")
+            print(f"  Correct:              {eval_summary.correct}/{eval_summary.total} ({eval_summary.accuracy:.1%})")
+            print(f"  Avg factual accuracy: {eval_summary.avg_factual_accuracy:.3f}")
+            print(f"  Avg completeness:     {eval_summary.avg_completeness:.3f}")
+            print(f"  Avg precision:        {eval_summary.avg_precision:.3f}")
+            print(f"  Avg reasoning:        {eval_summary.avg_reasoning_quality:.3f}")
+            print(f"  Avg composite:        {eval_summary.avg_composite:.3f}")
+            print(f"  Strategy breakdown:   {eval_summary.strategy_counts}")
 
     print(f"\n{json.dumps(report.summary, indent=2)}")
 

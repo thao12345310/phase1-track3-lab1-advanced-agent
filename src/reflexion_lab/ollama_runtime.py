@@ -15,6 +15,7 @@ import requests
 
 from .prompts import ACTOR_SYSTEM, ACTOR_SYSTEM_WITH_COT, EVALUATOR_SYSTEM, REFLECTOR_SYSTEM
 from .schemas import JudgeResult, QAExample, ReflectionEntry
+from .structured_evaluator import StructuredEvalResult, structured_evaluate
 from .utils import normalize_answer
 
 # ---------------------------------------------------------------------------
@@ -224,45 +225,45 @@ def _clean_answer(raw: str, use_cot: bool = False) -> str:
 
 
 # ---------------------------------------------------------------------------
-# Evaluator – judges correctness (score 0 or 1)
+# Evaluator – uses the Structured Evaluator (bonus extension)
 # ---------------------------------------------------------------------------
+
+# Storage for structured evaluation results (for reporting)
+_structured_eval_results: list[StructuredEvalResult] = []
+
+
+def get_structured_eval_results() -> list[StructuredEvalResult]:
+    """Return all structured evaluation results for report generation."""
+    return _structured_eval_results
+
+
+def clear_structured_eval_results() -> None:
+    """Clear the structured evaluation results."""
+    _structured_eval_results.clear()
+
+
 def evaluator(
     example: QAExample,
     answer: str,
 ) -> tuple[JudgeResult, int, int]:
-    """Return (JudgeResult, token_count, latency_ms)."""
-    # Quick exact-match shortcut (saves an LLM call if clearly correct)
-    if normalize_answer(answer) == normalize_answer(example.gold_answer):
-        return (
-            JudgeResult(
-                score=1,
-                reason="Exact match after normalization.",
-                missing_evidence=[],
-                spurious_claims=[],
-            ),
-            0,
-            0,
-        )
+    """Evaluate using multi-dimensional structured evaluator.
 
-    # Quick containment check — if gold is substring of predicted or vice versa
-    # e.g. "rock" in "indie rock", "Roman Catholic" ~ "Roman Catholicism"
-    gold_norm = normalize_answer(example.gold_answer)
-    pred_norm = normalize_answer(answer)
-    if gold_norm in pred_norm or pred_norm in gold_norm:
-        # Let the LLM evaluator decide, but hint at potential match
-        pass
+    Delegates to the structured_evaluator module which applies a cascading
+    pipeline: exact match → fuzzy containment → LLM multi-dimensional judge.
 
-    user_prompt = (
-        f"Question: {example.question}\n"
-        f"Gold answer: {example.gold_answer}\n"
-        f"Predicted answer: {answer}\n\n"
-        "Respond ONLY with a JSON object — no markdown fences, no explanation:\n"
-        '{"score": 0 or 1, "reason": "...", "missing_evidence": [...], "spurious_claims": [...]}'
+    Returns (JudgeResult, token_count, latency_ms) for backward compatibility.
+    The richer StructuredEvalResult is stored internally and can be retrieved
+    via get_structured_eval_results() for inclusion in reports.
+    """
+    structured_result, tokens, latency = structured_evaluate(
+        example, answer, chat_fn=_chat
     )
 
-    result = _chat(EVALUATOR_SYSTEM, user_prompt, temperature=0.0)
-    judge = _parse_judge(result["content"], answer)
-    return judge, result["tokens"], result["latency_ms"]
+    # Store for later aggregation in the report
+    _structured_eval_results.append(structured_result)
+
+    # Convert to JudgeResult for backward compatibility with the agent loop
+    return structured_result.to_judge_result(), tokens, latency
 
 
 def _parse_judge(raw: str, answer: str) -> JudgeResult:
