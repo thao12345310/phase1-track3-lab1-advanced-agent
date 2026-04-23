@@ -1,0 +1,482 @@
+[
+  {
+    "qid": "hh1",
+    "difficulty": "hard",
+    "question": "Guitars for Wounded Warriors is an album that was recorded in the village in which New York county?",
+    "gold_answer": "Ulster County",
+    "context": [
+      {
+        "title": "Michael Breed",
+        "text": "Michael S. Breed (born May 14, 1962, in Greenwich, Connecticut) is a professional golf instructor and television host.  In 2003, he was selected as a Top 100 Instructor in America by \"Golf Magazine\", in 2011, he was voted one of the Top 50 Instructors in America by Golf Digest (now 13th on this list, and #1 in the state of New York.) , in 2012, Breed was chosen as the PGA's National Teacher of the Year.  Prior to his time as a television host, Breed was the Head Golf Professional at Sunningdale Country Club for 12 years from 2001–2012, and the Head Golf Professional at Birchwood Country Club, as well as the Assistant Professional at Deepdale Golf Club and Augusta National Golf Club.  He has served on different boards for the Metropolitan PGA for over 10 years and has represented the PGA of America at the National Golf Day in Washington D.C. since 2012.  He is involved in charities such as The First Tee, Folds of Honor, Hope for the Warriors, Wounded Warriors Foundation and Salute Military Golf Association."
+      },
+      {
+        "title": "Timeline of town creation in the Hudson Valley",
+        "text": "The towns and cities of the Hudson Valley were created by the U.S. state of New York as municipalities, in order to perform the services of local government.  In 1683, prior to the creation of modern towns, the Province of New York was divided into twelve counties for administrative purposes by the Colonial Governor of New York.  In the Hudson Valley, these divisions included Dutchess, Orange, and Ulster counties.  Dutchess and Orange remained unorganized until 1713, with Dutchess administered from Ulster; Orange would be administered from New York County.  Future counties would be formed and towns exchanged over time, with Rockland County split from Orange in 1799, at which time the southern towns of Ulster were transferred to Orange as compensation for the loss; and Putnam County from Dutchess in 1812, these county's towns can trace their origins to towns and precincts that were formed in their parent counties.  Another change that occurred was the transfer of Dutchess County's northern section, the Livingston Manor, to Columbia County.  Greene County was formed in 1800 by the combination of the southernmost towns of Albany County with the northernmost towns of Ulster.  The history of the towns of Greene and Columbia counties can be found at the Timeline of town creation in New York's Capital District."
+      },
+      {
+        "title": "Guitars for Wounded Warriors",
+        "text": "Guitars for Wounded Warriors is the sixth solo studio album by guitarist Brian Tarquin, released in August 2014 by Cleopatra Records.  In 2016, it received a Best Compilation Album nomination by the Independent Music Awards.  All tracks were recorded at Tarquin's Jungle Room Studios in New Paltz (village), New York.  Being moved by the lack of support for returning veterans through his life Tarquin decided to compose a heavy instrumental rock album as a way to show his appreciation to all veterans.  So once again he enlisted top notch players to guest with him on the album, Billy Sheehan on \"Black Hawk\", Ron \"Bumblefoot\" Thal and Reb Beach on \"Taliban Terror\", Steve Morse on \"Freedom\", Chris Poland on \"Charlie Surfs\" and \"Hunting\", Chuck Loeb on \"Escape Kabul\", Hal Lindes on \"Sand & Blood\", Gary Hoey on \"5 Klicks To Hell\" and \"Baghdad\", Alex De Rosso Dokken on \"Broken Arrow\", and The Flyin' Ryan Brothers on \"Surgical Strike\".  The entire album was engineered, produced and composed by Tarquin especially for each one of the guest guitarists.  Partial proceeds are donated to the Fisher House Foundation from sales."
+      },
+      {
+        "title": "Aaron B. Rollins",
+        "text": "Aaron B. Rollins (1818 - December 4, 1878) was a member of the New York State Assembly for the 9th district of Manhattan from 1851 to 1853.  He was the deputy Sheriff of New York County, New York from 1853 to 1859, and the Coroner of New York County, New York from 1867 to 1870."
+      }
+    ]
+  },
+  {
+    "qid": "hh2",
+    "difficulty": "hard",
+    "question": "Jake David Shapiro was best know for being the screenwriter of a film directed by who?",
+    "gold_answer": "Roger Christian",
+    "context": [
+      {
+        "title": "Dirty Rotten Scoundrels (film)",
+        "text": "Dirty Rotten Scoundrels is a 1988 American comedy film directed by Frank Oz and starring Steve Martin, Michael Caine and Glenne Headly.  The screenplay was written by Dale Launer, Stanley Shapiro, and Paul Henning.  It is a remake of the Shapiro and Henning script for the 1964 Marlon Brando/David Niven film \"Bedtime Story\"."
+      },
+      {
+        "title": "Confessions of a Teenage Drama Queen",
+        "text": "Confessions of a Teenage Drama Queen is a 2004 American teen musical comedy film directed by Sara Sugarman and produced by Robert Shapiro and Matthew Hart for Walt Disney Pictures.  It stars Lindsay Lohan as an aspiring teenaged actress whose family moves from New York City to New Jersey, Adam Garcia as her favorite rock musician, Glenne Headly as her mother, and Alison Pill as her best friend.  The screenplay was written by Gail Parent and is based on the novel of the same name by Dyan Sheldon."
+      },
+      {
+        "title": "De Palma (film)",
+        "text": "De Palma is a 2015 American documentary film directed by Noah Baumbach and Jake Paltrow about the director and screenwriter Brian De Palma.  It world premiered, out of competition, at the 72nd edition of the Venice Film Festival."
+      },
+      {
+        "title": "We Married Margo",
+        "text": "We Married Margo is a 2000 American independent comedy film directed by J. David Shapiro and co-written by Shapiro and William Dozier.  The film tells a story of two friends who were married to the same woman and is loosely based on real events in that Shapiro and Dozier actually met after dating the same woman named Margaux.  The film was awarded the \"Audience Award for Comedy Film of the Year\" at the 2000 The Comedy Festival (formerly known as the \"US Comedy Arts Festival\") and was nominated for the \"Grand Jury Prize\" at the Slamdance Film Festival the same year."
+      }
+    ]
+  },
+  {
+    "qid": "hh3",
+    "difficulty": "hard",
+    "question": "What is the length of the track where the 2013 Liqui Moly Bathurst 12 Hour was staged?",
+    "gold_answer": "6.213 km long",
+    "context": [
+      {
+        "title": "Mount Panorama Circuit",
+        "text": "Mount Panorama Circuit is a motor racing track located in Bathurst, New South Wales, Australia.  It is situated on a hill with the dual official names of Mount Panorama and Wahluu and is best known as the home of the Bathurst 1000 motor race held each October, and the Bathurst 12 Hour event held each February.  The 6.213 km long track is technically a street circuit, and is a public road, with normal speed restrictions, when no racing events are being run, and there are many residences which can only be accessed from the circuit."
+      },
+      {
+        "title": "2016 Intercontinental GT Challenge",
+        "text": "The 2016 Intercontinental GT Challenge was the first season of the Intercontinental GT Challenge.  The season featured three rounds — after the cancellation of the 6 Hours of the Americas - starting with Liqui Moly Bathurst 12 Hour on 7 February and the season concluded with the Sepang 12 Hours on 10 December."
+      },
+      {
+        "title": "Bathurst 12 Hour",
+        "text": "The Bathurst 12 Hour (currently known as the Liqui Moly Bathurst 12 Hour for sponsorship reasons) is an endurance race for GT and production cars held at the Mount Panorama Circuit, in Bathurst, Australia in February each year.  The race was first held in 1991 for Series Production cars and moved to Sydney's Eastern Creek Raceway in 1995 before being discontinued.  The race was revived in 2007, again for production cars, before adding a new class for GT3 and other GT cars in 2011.  This has led to unprecedented domestic and international exposure for the event.  In all, sixteen races have taken place; fifteen at Mount Panorama and one at Eastern Creek Raceway."
+      },
+      {
+        "title": "2018 Intercontinental GT Challenge",
+        "text": "The 2018 Intercontinental GT Challenge will be the third season of the Intercontinental GT Challenge.  The season will feature four rounds, starting with the Liqui Moly Bathurst 12 Hour on 4 February, and concluding with the California 8 Hours on 21 October."
+      }
+    ]
+  },
+  {
+    "qid": "hh4",
+    "difficulty": "hard",
+    "question": "What is the length of the River which has Wild Horse Creek as a tributary ?",
+    "gold_answer": "375 mi long",
+    "context": [
+      {
+        "title": "Wild Horse River",
+        "text": "The Wild Horse River, formerly known as Wild Horse Creek, is a tributary of the Kootenay River, joining it near the town of Fort Steele, British Columbia, Canada.  The river's canyon was the setting for the Wild Horse Creek Gold Rush and associated \"war\" during the gold rush of the mid-1860s."
+      },
+      {
+        "title": "Powder River (Wyoming and Montana)",
+        "text": "Powder River is a tributary of the Yellowstone River, approximately 375 mi long in northeastern Wyoming and southeastern Montana in the United States.  It drains an area historically known as the Powder River Country on the high plains east of the Bighorn Mountains."
+      },
+      {
+        "title": "Tarpan",
+        "text": "The tarpan (\"Equus ferus ferus\"), also known as Eurasian wild horse or simply, wild horse, was a subspecies of wild horse.  It is now extinct.  The last individual believed to be of this subspecies died in captivity in Russia in 1909, although some sources claim that it was not a genuine wild horse due to its resemblance to domesticated horses."
+      },
+      {
+        "title": "Wild Horse Creek (Wyoming)",
+        "text": "Wild Horse Creek is a tributary of the Powder River in Wyoming.  The USGS has a station on the creek, near Arvada."
+      }
+    ]
+  },
+  {
+    "qid": "hh5",
+    "difficulty": "hard",
+    "question": "Who was born first, Francis Nethersole or Elizabeth Stuart?",
+    "gold_answer": "Sir Francis Nethersole",
+    "context": [
+      {
+        "title": "James Stuart, 3rd Earl of Moray",
+        "text": "James Stuart, 3rd Earl of Moray (1581 – 6 August 1638) was the son of James Stewart, 2nd Earl of Moray and Elizabeth Stuart, 2nd Countess of Moray."
+      },
+      {
+        "title": "Charlotte of the Palatinate (1628–1631)",
+        "text": "Charlotte of the Palatinate (\"Princess Palatine Charlotte\", 19 December 1628 – 14 January 1631), was the fourth daughter of Frederick V, Elector Palatine (of the House of Wittelsbach), the \"Winter King\" of Bohemia, by his consort, the English princess Elizabeth Stuart.  Charlotte was born up in the Dutch Republic, where her family had sought refuge after the sequestration of their Electorate during the Thirty Years' War.  Charlotte's brother Charles Louis was, as part of the Peace of Westphalia, restored to the Palatinate."
+      },
+      {
+        "title": "Margaret Howard, Countess of Nottingham",
+        "text": "Margaret Stuart (or Stewart) (c. 1591 – 4 August 1639), was an English court office holder.  She served as lady-in-waiting to the queen consort of England, Anne of Denmark.  She was the daughter of James Stewart, 2nd Earl of Moray, and Elizabeth Stuart, 2nd Countess of Moray."
+      },
+      {
+        "title": "Francis Nethersole",
+        "text": "Sir Francis Nethersole (1587–1659) was an English diplomat, secretary to the Electress Elizabeth, Member of Parliament for Corfe Castle, Dorset, and a Civil War political pamphleteer."
+      }
+    ]
+  },
+  {
+    "qid": "hh6",
+    "difficulty": "hard",
+    "question": "The Southern Railway runs from Vienna to Graz and the border with Slovenia at Spielfeld via the first mountain railway built in Europe to use what kind of track?",
+    "gold_answer": "standard gauge track",
+    "context": [
+      {
+        "title": "Semmering railway",
+        "text": "The Semmering railway (German: \"Semmeringbahn\" ) in Austria, which starts at Gloggnitz and leads over the Semmering to Mürzzuschlag was the first mountain railway in Europe built with a standard gauge track.  It is commonly referred to as the world's first true mountain railway, given the very difficult terrain and the considerable altitude difference that was mastered during its construction.  It is still fully functional as a part of the Southern Railway which is operated by the Austrian Federal Railways."
+      },
+      {
+        "title": "Most–Moldava railway",
+        "text": "The Most–Moldava railway is a branch line in Czech Republic, which was originally built and operated by the Prague-Dux Railway.  The line, formerly known as the\"Teplitz Semmering Railway\" (\"Teplitzer Semmeringbahn\") runs from Most (\"Brüx\") over the Ore Mountains to Moldava (\"Moldau\") and used to have a junction with the Nossen-Moldau railway there in Saxony until 1945.  In the Czech Republic the line is known today as the \"Moldavská horská dráha\" (\"Moldau Mountain Railway\") or \"Krušnohorská železnice\" (\"Ore Mountain Railway\")."
+      },
+      {
+        "title": "Southern Railway (Austria)",
+        "text": "The Southern Railway (German: \"Südbahn\" ) is a railway in Austria that runs from Vienna to Graz and the border with Slovenia at Spielfeld via Semmering and Bruck an der Mur.  It was originally built by the Austrian Southern Railway company and ran to Ljubljana and Trieste, the main seaport of the Austro-Hungarian Monarchy.  The twin-track, electrified section that runs through the current territory of Austria is owned and operated by Austrian Federal Railways (ÖBB) and is one of the major lines in the country."
+      },
+      {
+        "title": "Rudyard Lake Steam Railway",
+        "text": "The Rudyard Lake Steam Railway is a ridable miniature railway and the third railway of any gauge to run along the side of Rudyard Lake in Staffordshire.  The railway runs for 1+1/2 mi on the track bed of an old standard gauge North Staffordshire Railway line.  After the NSR line closed down, a small narrow gauge train ran on the site for two years before moving via Suffolk to Trago Mills in Devon.  The current line started in 1985 and is gauge, and operates to a timetable.  It was built by Peter Hanton of Congleton working on his own over a period of 10 years.  He sold the railway to the Rudyard Lake Steam Railway Ltd in October 2000 who have developed it since that date."
+      }
+    ]
+  },
+  {
+    "qid": "hh7",
+    "difficulty": "hard",
+    "question": "Benjamin Halfpenny was a footballer for a club that plays its home matches where?",
+    "gold_answer": "Select Security Stadium",
+    "context": [
+      {
+        "title": "Estádio José de Melo",
+        "text": "Estádio José de Melo, sometimes called Stadium José de Melo, is a multi-use stadium located in Rio Branco, Brazil.  It is used mostly for football matches and hosts the home matches of Andirá Esporte Clube, Atlético Acreano, Independência Futebol Clube, Atlético Clube Juventus, Rio Branco Football Club and Associação Desportiva Vasco da Gama.  It also hosted the home matches of América-AC The stadium has a maximum capacity of 8,000 people and was built in 1929 (according to some sources, it was inaugurated in 1935).  The stadium is owned by Rio Branco Football Club and is named after the commissioner José Francisco de Melo, who is a former player and former president of Rio Branco Football Club.  He also donated the groundplot where the stadium was built."
+      },
+      {
+        "title": "Estadio Cincuentenario",
+        "text": "The Estadio Cincuentenario is an indoor arena in Formosa, Argentina.  It hosts basketball, volleyball, futsal, boxing, handball and artistic events.  Club La Unión plays at this stadium its home matches for the Liga Nacional de Básquet, the top level of the Argentine basketball league system.  The same club also has a volleyball team that plays its home matches for the Liga Argentina de Voleibol – Serie A1 at the Cincuentenario as well."
+      },
+      {
+        "title": "FF Giza",
+        "text": "Fótbóltsfelagið Giza (since 2012 Giza/Hoyvík) was a Faroese football club based in the capital Tórshavn.  The team plays its home matches on Niðari Vøllur (the Lower Field) in Gundadalur.  Earlier they played their home matches in Argir."
+      },
+      {
+        "title": "Estádio Municipal João Lamego Netto",
+        "text": "Estádio Municipal João Lamego Netto, usually known as Lamegão, is a multi-purpose stadium in Ipatinga, Brazil.  It is currently used mostly for football matches.  Ideal futebol Clube usually play their home matches at the stadium.  Social Futebol Clube, from the neighbor city Coronel Fabriciano, has its own stadium, but sometimes plays its home matches at Ipatingão, because of its larger capacity and better structure.  The stadium has a current maximum capacity of 10,000 people and was built in 1982."
+      }
+    ]
+  },
+  {
+    "qid": "hh8",
+    "difficulty": "hard",
+    "question": "Which band has more members, Saint Motel or Curve?",
+    "gold_answer": "Saint Motel",
+    "context": [
+      {
+        "title": "ForPlay",
+        "text": "ForPlay is the first EP by American indie rock band Saint Motel.  The album had a music video for every song that was also included on the CD itself."
+      },
+      {
+        "title": "Lior Goldenberg",
+        "text": "Lior Goldenberg (born September 28, 1974) is a producer and mixer from Tel Aviv, Israel.  He currently resides in Los Angeles, California.  He has worked with Rancid, Macy Gray, Sheryl Crow, MxPx, Vanessa Carlton, Marilyn Manson, Andrew W.K., Crosby, Stills, Nash & Young, Alanis Morissette, Ziggy Marley, and indie bands Allen Stone, Crash Kings, Saint Motel and Wil Seabrook.  He works out of his private studio in Woodland Hills."
+      },
+      {
+        "title": "My Type",
+        "text": "\"My Type\" is a song by American indie pop band Saint Motel.  It was released as the lead single from their EP of the same name in January 2014.  The song has been featured in two films, \"Paper Towns\" and \"Mr. Right\" (both 2015).  The song appeared on the soundtrack of video games \"FIFA 15\" and \"Pro Evolution Soccer 2016\"."
+      },
+      {
+        "title": "Saintmotelevision",
+        "text": "Saintmotelevision (stylized as saintmotelevision) is the second studio album by American indie pop band Saint Motel.  It was released on October 21, 2016, by Elektra Records."
+      }
+    ]
+  },
+  {
+    "qid": "hh9",
+    "difficulty": "hard",
+    "question": "Where is the base of one of the three main British intelligence agencies?",
+    "gold_answer": "Cheltenham",
+    "context": [
+      {
+        "title": "Defence Strategic Policy and Intelligence Group",
+        "text": "The Defence Strategic Policy and Intelligence Group (SP&I) of the Australian Government Department of Defence is responsible for defence diplomacy, strategic policy, international security, and military intelligence coordination and advice to the Prime Minister of Australia, Minister for Defence, Secretary of the Department of Defence, and Chief of the Defence Force.  The Defence Strategic Policy and Intelligence Group is led by the Deputy Secretary for Strategic Policy and Intelligence and comprises four policy divisions and three intelligence agencies, which are the Australian Defence Organisation members of the Australian Intelligence Community."
+      },
+      {
+        "title": "British intelligence agencies",
+        "text": "The Government of the United Kingdom maintains intelligence agencies within several different government departments.  The agencies are responsible for collecting and producing foreign and domestic intelligence, providing military intelligence, performing espionage and counter-espionage.  Their intelligence assessments contribute to the conduct of the foreign relations of the United Kingdom, maintaining the national security of the United Kingdom, military planning and law enforcement in the United Kingdom.  The three main agencies are the Secret Intelligence Service (MI6), the Security Service (MI5), and the Government Communications Headquarters (GCHQ)."
+      },
+      {
+        "title": "Gustav Laabs",
+        "text": "Gustav Laabs (born 20 December 1902-died 12 March 1980) was a German SS commander during the Nazi era.  During the Second World War, he worked as a gas van operator at the Chełmno extermination camp in Wartheland.  As an operator of a gas van, Laabs was directly involved in and responsible for the genocidal extermination of over 100,000 men, women and children, most of whom were killed on account of being Jewish.  After the war, he was tried and convicted for his crimes against humanity.  Despite being convicted, Laabs was given the lenient sentence of 15 years (subsequently reduced to 13 years) by a regional court in Landgericht Bonn, Germany.  Far from being outliers, such instances of leniency, extended to perpetrators of genocide and crimes against humanity during trials in post-Nazi Germany, constituted the norm, as evidenced by the fact that most of the perpetrators of Nazi war crimes and the Final Solution were not brought to justice.  Many former SS officers and Nazis, who were directly responsible for perpetrating genocide and murdering countless innocent people, were contracted to work for US and British intelligence agencies as part of the war against the USSR and Communism (also see Operation Paperclip for more on post-WWII Allied collaboration with Nazis)."
+      },
+      {
+        "title": "Alliance Base",
+        "text": "Alliance Base was the cover name for a secret Western Counterterrorist Intelligence Center (CTIC) that existed between 2002 and 2009 in Paris.  The existence of CTICs were first revealed by Dana Priest in a November 17, 2005 \"Washington Post\" article, while she referred to the Alliance Base in a July 2, 2005, article.  The name was chosen in reference of Al Qaeda, which means \"The Base\" in Arabic.  It was headed by a French General assigned to the Directorate-General for External Security (DGSE), and largely funded by the CIA's Counterterrorist Center.  It hosted officers from Great Britain, France, Germany, Canada, Australia and the United States and was used for intelligence exchange and operational planning.  Its existence was confirmed on 8 September 2006 by Christophe Chaboud, chief of the UCLAT (\"\"Unité de Coordination de la Lutte contre le Terrorisme\"\", \"Fight against Terrorism Coordination Unit\"), in an interview to RFI.  Although intelligence exchange between intelligence agencies has become more and more widespread in the last decade, in particular following the September 11, 2001 attacks, this organisation also engaged in operations."
+      }
+    ]
+  },
+  {
+    "qid": "hh10",
+    "difficulty": "hard",
+    "question": "Maurice Hines and his brother were famous for what?",
+    "gold_answer": "dancer Gregory Hines",
+    "context": [
+      {
+        "title": "Maurice Spata",
+        "text": "Muriki or Maurice Spata (, ; ) was the ruler of Arta from late 1399/early 1400 until his death in 1414 or 1415.  Maurice's reign was dominated by his wars with Carlo I Tocco.  Maurice was able to defend his capital of Arta, but despite some victories failed to prevent the fall of Ioannina to Tocco.  As a result, his brother Yaqub Spata who succeeded him was defeated in October 1416, ending the Despotate of Arta."
+      },
+      {
+        "title": "Hot Feet",
+        "text": "Hot Feet is a jukebox musical featuring the music of Earth, Wind & Fire, a book by Heru Ptah and was conceived, directed, and choreographed by Maurice Hines.  The musical opened on Broadway at the Foxwoods Theatre (then the Hilton Theatre) on April 30, 2006 and closed on July 23, 2006."
+      },
+      {
+        "title": "Thomas Berkeley, 5th Baron Berkeley",
+        "text": "He was born to Sir Maurice Berkeley, \"de jure\" 3rd Baron Berkeley, and Isabel Meade, in England.  He was the younger brother to Maurice Berkeley, \"de jure\" 4th Baron Berkeley, and had a younger brother, James, and younger sister, Anne.  On 9 September 1513 he fought in the Battle of Flodden and was knighted by the Earl of Surrey, Thomas Howard.  He later became Constable of Berkeley Castle on 15 May 1514, and Sheriff of Gloucestershire, November 1522 - November 1523.  By writ, he was succeeded to the title of \"de jure\" 5th Baron Berkeley on 12 September 1523 after his brother Maurice's death, and his eldest son Thomas followed as the \"de jure\" 6th Baron Berkeley, again by writ."
+      },
+      {
+        "title": "John Hines (Australian soldier)",
+        "text": "John \"Barney\" Hines (1873–1958) was a British-born Australian soldier of World War I, known for his prowess at collecting \"souvenirs\" from German soldiers.  Hines was the subject of a famous photo taken by Frank Hurley that depicted him surrounded by German military equipment and money he had looted during the Battle of Polygon Wood in September 1917.  This image is among the best-known Australian photographs of the war."
+      }
+    ]
+  },
+  {
+    "qid": "hh11",
+    "difficulty": "hard",
+    "question": "What U.S Highway gives access to Zilpo Road, and is also known as Midland Trail?",
+    "gold_answer": "US 60",
+    "context": [
+      {
+        "title": "Zilpo Road",
+        "text": "Zilpo Road is a National Forest Scenic Byway in the forested hills of eastern Kentucky, United States.  The nine mile byway starts south of Morehead, Kentucky and can be accessed by U.S. Highway 60.  The byway travels through the Daniel Boone National Forest and ends on the western shore of Cave Run Lake at the Zilpo Recreation Area.  It follows FSR 918, which is a two lane paved road suitable for all motor vehicles and is usually open throughout the year."
+      },
+      {
+        "title": "RISE (sculpture)",
+        "text": "RISE is a concept £400,000 public art spherical metal sculpture in Belfast by Wolfgang Buttress.  It is 37.5 m high and 30 m wide and was constructed in early 2011 in the centre of the Broadway roundabout, at the junction of the Westlink and M1 motorway, a main gateway to the city where (as of 2009) more than 80,000 cars on average flow past it each day.  It is informally known as The Balls on the Falls as this junction also gives access to the Falls Road area via Broadway."
+      },
+      {
+        "title": "Peterman Hill",
+        "text": "Peterman Hill is an unincorporated community located on a high ridge in Boyd County, Kentucky, on the Catlettsburg-Cannonsburg Pike (the Cannonsburg Road), three miles (5 km) west of Catlettsburg.  The road was originally known as Midland Trail and later U.S. 60 alternate until 1964 when it reverted to county maintenance.  It is now State Route 3294."
+      },
+      {
+        "title": "Arkansas Highway 113",
+        "text": "Arkansas Highway 113 (AR 113 and Hwy.  113) is a north–south state highway that runs in Central Arkansas.  The route runs 29.48 mi from Arkansas Highway 10 to Morrilton.  This also gives access to some rural areas west of Morrilton.  It runs through Pulaski, Perry, and Conway Counties.  It contains no spur of business routes."
+      }
+    ]
+  },
+  {
+    "qid": "hh12",
+    "difficulty": "hard",
+    "question": "What type of vegetation does Kniphofia and Baptisia have in common?",
+    "gold_answer": "plant",
+    "context": [
+      {
+        "title": "Dinaric calcareous block fir forest",
+        "text": "The Dinaric calcareous silver fir forests are an endemic vegetation type of the littoral Dinaric Alps, located in southeastern Europe.  Pure stands of Dinaric calcareous Silver fir —\"Abies alba\" forests appear on limestone escarpments in the montane zones of Orjen, Velebit, Biokovo and Prenj.  They comprise one of the most interesting formations of Balkan vegetation types as the forests bear several rare plants and are of striking beauty.  As a highly endemic and rare vegetation type of the Dinarids it needs protection."
+      },
+      {
+        "title": "Kniphofia",
+        "text": "Kniphofia , also called tritoma, red hot poker, torch lily, knofflers or poker plant, is a genus of flowering plants in the family Asphodelaceae, first described as a genus in 1794.  It is native to Africa.  Herbaceous species and hybrids have narrow, grass-like leaves 10 - long, while perennial species have broader, strap-shaped foliage up to 1.5 m long.  All plants produce spikes of upright, brightly coloured flowers well above the foliage, in shades of red, orange and yellow, often bicoloured.  The flowers produce copious nectar while blooming and are attractive to bees.  In the New World they may attract sap-suckers such as hummingbirds and New World orioles."
+      },
+      {
+        "title": "Caatinga",
+        "text": "Caatinga (] ) is a type of desert vegetation, which can also be called Jola Jolilo (Jou-lah-Jouh-Liloy).  It is the indian name for the Caatinga, and an ecoregion characterized by this vegetation in interior northeastern Brazil.  The name \"Caatinga\" is a Tupi word meaning \"white forest\" or \"white vegetation\" (\"caa\" = forest, vegetation, \"tinga\" = white)."
+      },
+      {
+        "title": "Lourensford Alluvium Fynbos",
+        "text": "Lourensford Alluvium Fynbos is a critically endangered vegetation type that is endemic to Cape Town.  Though closest to Fynbos, it has characteristics of both Fynbos and Renosterveld vegetation and is thus actually a unique hybrid vegetation type."
+      }
+    ]
+  },
+  {
+    "qid": "hh13",
+    "difficulty": "hard",
+    "question": "Up to how far off can the Deal Timeball be from Coordinated Universal Time?",
+    "gold_answer": "0.9 s.",
+    "context": [
+      {
+        "title": "Greenwich Mean Time",
+        "text": "Greenwich Mean Time (GMT) is the mean solar time at the Royal Observatory in Greenwich, London.  GMT was formerly used as the international civil time standard, now superseded in that function by Coordinated Universal Time (UTC).  Today GMT is considered equivalent to UTC for UK civil purposes (but this is not formalised) and for navigation is considered equivalent to UT1 (the modern form of mean solar time at 0° longitude); these two meanings can differ by up to 0.9 s. Consequently, the term GMT should not be used for precise purposes."
+      },
+      {
+        "title": "Fractional lambda switching",
+        "text": "Fractional lambda switching (FλS) leverages on time-driven switching (TDS) to realize sub-lambda switching in highly scalable dynamic optical networking, which requires minimum (possibly optical) buffers.  Fractional lambda switching implies switching fractions of optical channels as opposed to whole lambda switching where whole optical channels are the switching unit.  In this context, TDS has the same general objectives as optical burst switching and optical packet switching: realizing all-optical networks with high wavelength utilization.  TDS operation is based on time frames (TFs) that can be viewed as virtual containers for multiple IP packets that are switched at every TDS switch based on and coordinated by the UTC (coordinated universal time) signal implementing pipeline forwarding.  In the context of optical networks, synchronous virtual pipes SVPs typical of pipeline forwarding are called fractional lambda pipes (FλPs)."
+      },
+      {
+        "title": "Civil time",
+        "text": "In modern usage, civil time refers to statutory time scales designated by civilian authorities, or to local time indicated by clocks.  Modern civil time is generally standard time in a time zone at a fixed offset from Coordinated Universal Time (UTC) or from Greenwich Mean Time (GMT), possibly adjusted by daylight saving time during part of the year.  UTC is calculated by reference to atomic clocks, and was adopted in 1972.  Older systems use telescope observations."
+      },
+      {
+        "title": "Mountain Time Zone",
+        "text": "The Mountain Time Zone of North America keeps time by subtracting seven hours from Coordinated Universal Time (UTC) when standard time is in effect, and by subtracting six hours during daylight saving time (UTC−6).  The clock time in this zone is based on the mean solar time at the 105th meridian west of the Greenwich Observatory.  In the United States, the exact specification for the location of time zones and the dividing lines between zones is set forth in the Code of Federal Regulations at 49 CFR 71."
+      }
+    ]
+  },
+  {
+    "qid": "hh14",
+    "difficulty": "hard",
+    "question": "Which genus of moth in the world's seventh-largest country contains only one species?",
+    "gold_answer": "Crambidae",
+    "context": [
+      {
+        "title": "India",
+        "text": "India, officially the Republic of India (\"Bhārat Gaṇarājya\"), is a country in South Asia.  It is the seventh-largest country by area, the second-most populous country (with over 1.2 billion people), and the most populous democracy in the world.  It is bounded by the Indian Ocean on the south, the Arabian Sea on the southwest, and the Bay of Bengal on the southeast.  It shares land borders with Pakistan to the west; China, Nepal, and Bhutan to the northeast; and Myanmar (Burma) and Bangladesh to the east.  In the Indian Ocean, India is in the vicinity of Sri Lanka and the Maldives.  India's Andaman and Nicobar Islands share a maritime border with Thailand and Indonesia."
+      },
+      {
+        "title": "List of companies of India",
+        "text": "India is a country in South Asia.  It is the seventh-largest country by area, the second-most populous country (with over 1.2 billion people), and the most populous democracy in the world."
+      },
+      {
+        "title": "Eutrapela",
+        "text": "Eutrapela is a genus of moth in the Geometridae family.  It contains only one species, Eutrapela clemataria, the curve-toothed geometer moth or purplish-brown looper, which is found in North America, where it has been recorded from Nova Scotia to Florida, west to Texas and north to Saskatchewan.  The habitat consists of deciduous and mixed woodlands."
+      },
+      {
+        "title": "Geography of India",
+        "text": "India lies on the Indian Plate, the northern portion of the Indo-Australian Plate, whose continental crust forms the Indian subcontinent.  The country is situated north of the equator between 8°4' to 37°6' north latitude and 68°7' to 97°25' east longitude.  It is the seventh-largest country in the world, with a total area of 3287263 km2 .  India measures 3214 km from north to south and 2933 km from east to west.  It has a land frontier of 15200 km and a coastline of 7516.6 km ."
+      }
+    ]
+  },
+  {
+    "qid": "hh15",
+    "difficulty": "hard",
+    "question": "Who is the American internet entrepreneur who founded the company featured on 24 Hours on Craigslist?",
+    "gold_answer": "Craig Newmark",
+    "context": [
+      {
+        "title": "Alexander Muse",
+        "text": "Alexander Muse is an American internet entrepreneur who has founded several internet companies including LayerOne, ShopSavvy, Architel, and ViewMarket (among others).  His most recent endeavor, Sumo Ventures, invests in early-stage startups."
+      },
+      {
+        "title": "Vikas Gupta",
+        "text": "Vikas Gupta is an Indian American internet entrepreneur.  He is known for having founded Jambool, an online company that was acquiredby Google in August 2010.  Gupta has also joined Google as the Head of Consumer Payments after the acquisition.  Prior to founding Jambool, Gupta worked at Amazon.com, where he led the payments and web services groups.  His newest venture is Play-i,which he started in November 2012."
+      },
+      {
+        "title": "Jeff Pulver",
+        "text": "Jeff Pulver is an American Internet entrepreneur known for his work as founder and chief executive of pulver.com and co-founder of Free World Dialup, Vonage, MoNage and Zula (app).  Pulver has been called a Voice over Internet Protocol pioneer, and has written extensively on VoIP telephony, and the need to develop an alternative to government regulation of its applications layer."
+      },
+      {
+        "title": "Justin Waldron",
+        "text": "Justin Waldron (June 18, 1988) is an American internet entrepreneur best known as the co-founder of Zynga, which makes online social and mobile games.  Zynga is considered to be the pioneer of the social and mobile gaming industries, responsible for creating many of the microtransaction and viral marketing business models which are now ubiquitous.  Within four years of its founding, Zynga grew to $1 billion in annual revenue, faster than any other internet company.  In 2011 Zynga held the largest IPO since Google, with a valuation of over $10 billion.  Waldron left Zynga in October 2013 and is currently an active angel investor and advisor in various other technology companies."
+      }
+    ]
+  },
+  {
+    "qid": "hh16",
+    "difficulty": "hard",
+    "question": "Are the New Orleans Outfall Canals the same length as the Augusta Canal?",
+    "gold_answer": "yes",
+    "context": [
+      {
+        "title": "Augusta Canal",
+        "text": "The Augusta Canal is a historic canal located in Augusta, Georgia, United States.  The canal is fed by the Savannah River and passes through three levels (approximately 13 miles total) in suburban and urban Augusta before the water returns to the river at various locations.  It was devised to harness the water power at the fall line of the Savannah River to drive mills, to provide transportation of goods, and to provide a municipal water supply.  It is the only canal in the US in continuous use for its original purposes of providing power, transport and municipal water."
+      },
+      {
+        "title": "17th Street Canal",
+        "text": "The 17th Street Canal is the largest and most important drainage canal in the city of New Orleans.  Operating with Pump Station 6, It moves water into Lake Pontchartrain.  The canal, along with the Orleans Canal and the London Avenue Canal, form the New Orleans Outfall Canals.  The 17th Street Canal forms a significant portion of the boundary between the city of New Orleans and Metairie, Louisiana.  The canal has also been known as the Metairie Outlet Canal and the Upperline Canal."
+      },
+      {
+        "title": "Almonaster Road",
+        "text": "Almonaster Avenue is a four-lane divided road in New Orleans, Louisiana, United States, named after 18th-century Spanish philanthropist Don Andres Almonaster y Rojas.  It forms in the residential neighborhoods of the Upper Ninth Ward by branching off at a Y-type intersection with Franklin Avenue.  Shortly afterwards, the road elevates on an overpass to cross the Norfolk Southern Railway and returns to ground level as it crosses the Industrial Canal on the Almonaster Avenue Bridge, a bascule bridge that it shares with CSX Transportation, proceeding into New Orleans East.  The traffic lanes straddle the railroad bridge on either side; this is the only location where Almonaster becomes a two-lane road, albeit divided.  It is also the last of the combination railroad/automobile movable bridges.  It winds through the New Orleans Business and Industrial District (NO BID) parallel with the Mississippi River Gulf Outlet and Gulf Intracoastal Waterway.  It intersects with Interstate 510 before finally ending at the junction with U.S. Highway 90.  It is also known for New Orleans street racing."
+      },
+      {
+        "title": "Karakum Canal",
+        "text": "The Karakum Canal (Qaraqum Canal, Kara Kum Canal, Garagum Canal; Russian: Каракумский канал , \"Karakumsky Kanal\", Turkmen: Garagum kanaly , گَرَگوُم كَنَلیٛ, \"Гарагум каналы\") in Turkmenistan is one of the largest irrigation and water supply canals in the world.  Started in 1954, and completed in 1988, it is navigable over much of its 1375 km length, and carries 13 km3 of water annually from the Amu-Darya River across the Karakum Desert in Turkmenistan.  The canal opened up huge new tracts of land to agriculture, especially to cotton monoculture heavily promoted by the Soviet Union, and supplying Ashgabat with a major source of water.  Unfortunately, the primitive construction of the canal allows almost 50 percent of the water to escape en route, creating lakes and ponds along the canal, and a rise in groundwater leading to widespread soil salinization problems.  The canal is also a major factor leading to the Aral Sea environmental disaster."
+      }
+    ]
+  },
+  {
+    "qid": "hh17",
+    "difficulty": "hard",
+    "question": "Who is older Glenn Hughes or Ross Lynch?",
+    "gold_answer": "Glenn Hughes",
+    "context": [
+      {
+        "title": "Babette Hughes",
+        "text": "Babette Hughes (1906–1982) was an American playwright of one-act plays and mystery novelist.  She was born in Seattle, Washington and while an English student at the University of Washington she met the American playwright Glenn Hughes who she married in 1924 for around 20 years.  Hughes wrote comedic one-act plays, mysteries, and non-fiction works."
+      },
+      {
+        "title": "Dark Side (R5 song)",
+        "text": "\"Dark Side\" is a song by American pop rock band R5.  It was released on February 1, 2016 as the fifth single from \"Sometime Last Night\".  It was written by Ross Lynch, Riker Lynch, Rocky Lynch and Ellington Ratliff, and produced by Rocky and Matt Wallace."
+      },
+      {
+        "title": "Ross Lynch",
+        "text": "Ross Shor Lynch (born December 29, 1995) is an American singer, songwriter, and actor.  He is one of the founding members of the pop rock band R5.  As an actor, he is known for his debut role as Austin Moon on the Disney Channel original series \"Austin & Ally\", and for his role as Brady in the \"Teen Beach Movie\" series.  Lynch is also starring in a new horror/thriller movie called \"My Friend Dahmer,\" where he plays the role of Jeffrey Dahmer in his teenage years.  The movie is set to debut in the fall of 2017."
+      },
+      {
+        "title": "Live in Tokyo (HTP album)",
+        "text": "Live In Tokyo is a live album by Hughes Turner Project, a collaboration between Glenn Hughes (Deep Purple/ Black Sabbath/ Trapeze) and Joe Lynn Turner (Deep Purple/ Rainbow/ Yngwie Malmsteen); it was released in 2002 on MTM Music and Pony Canyon Records."
+      }
+    ]
+  },
+  {
+    "qid": "hh18",
+    "difficulty": "hard",
+    "question": "Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?",
+    "gold_answer": "President Richard Nixon",
+    "context": [
+      {
+        "title": "Lisa Simpson",
+        "text": "Lisa Marie Simpson is a fictional character in the animated television series \"The Simpsons\".  She is the middle child and most intelligent of the Simpson family.  Voiced by Yeardley Smith, Lisa first appeared on television in \"The Tracey Ullman Show\" short \"Good Night\" on April 19, 1987.  Cartoonist Matt Groening created and designed her while waiting to meet James L. Brooks.  Groening had been invited to pitch a series of shorts based on his comic \"Life in Hell\", but instead decided to create a new set of characters.  He named the elder Simpson daughter after his younger sister Lisa Groening.  After appearing on \"The Tracey Ullman Show\" for three years, the Simpson family were moved to their own series on Fox, which debuted on December 17, 1989."
+      },
+      {
+        "title": "Marge Simpson",
+        "text": "Marjorie Jacqueline \"Marge\" Simpson (née Bouvier) is a fictional character in the American animated sitcom \"The Simpsons\" and part of the eponymous family.  She is voiced by Julie Kavner and first appeared on television in \"The Tracey Ullman Show\" short \"Good Night\" on April 19, 1987.  Marge was created and designed by cartoonist Matt Groening while he was waiting in the lobby of James L. Brooks' office.  Groening had been called to pitch a series of shorts based on \"Life in Hell\" but instead decided to create a new set of characters.  He named the character after his mother Margaret Groening.  After appearing on \"The Tracey Ullman Show\" for three seasons, the Simpson family received their own series on Fox, which debuted December 17, 1989."
+      },
+      {
+        "title": "Bart Simpson",
+        "text": "Bartholomew JoJo \"Bart\" Simpson is a fictional character in the American animated television series \"The Simpsons\" and part of the Simpson family.  He is voiced by Nancy Cartwright and first appeared on television in \"The Tracey Ullman Show\" short \"Good Night\" on April 19, 1987.  Cartoonist Matt Groening created and designed Bart while waiting in the lobby of James L. Brooks' office.  Groening had been called to pitch a series of shorts based on his comic strip, \"Life in Hell\", but instead decided to create a new set of characters.  While the rest of the characters were named after Groening's family members, Bart's name is an anagram of the word \"brat\".  After appearing on \"The Tracey Ullman Show\" for three years, the Simpson family received its own series on Fox, which debuted December 17, 1989."
+      },
+      {
+        "title": "Allie Goertz",
+        "text": "Allison Beth \"Allie\" Goertz (born March 2, 1991) is an American musician.  Goertz is known for her satirical songs based on various pop culture topics.  Her videos are posted on YouTube under the name of Cossbysweater.  Subjects of her songs have included the film \"The Room\", the character Milhouse from the television show \"The Simpsons\", and the game Dungeons & Dragons.  Her style has been compared to that of Bo Burnham.  In December 2015, Goertz released a concept album based on the Adult Swim series \"Rick and Morty\", \"Sad Dance Songs\", with the album's cover emulating the animation and logo of the series.  The album was made possible through Kickstarter.  She is co-host of Everything's Coming Up Podcast, a Simpsons-focused podcast along with Julia Prescott."
+      }
+    ]
+  },
+  {
+    "qid": "hh19",
+    "difficulty": "hard",
+    "question": "Jo Ann Terry won the 80m hurdles event at what Sao Paulo-based event from 1963?",
+    "gold_answer": "Pan American Games",
+    "context": [
+      {
+        "title": "David Oliver (hurdler)",
+        "text": "David Oliver (born April 24, 1982), is an American hurdling athlete.  As a professional athlete, he competes in the 110 meter hurdles event outdoor and the 60 meter hurdles event indoor.  He is the former 110 meter hurdles champion winning the gold medal at the World Championships in Moscow with a time of 13 seconds.  He won the bronze medal in the 2008 Olympic Games and won another bronze at the 2010 IAAF World Indoor Championships."
+      },
+      {
+        "title": "Maj Jacobsson",
+        "text": "Maj Jacobsson (25 November 1909 – 31 January 1996) was a Swedish athlete who won the 80 m hurdles event at the 1930 Women's World Games.  Domestically she won eight titles in 1929–1930, in the 80 m, 80 m hurdles, 200 m, long jump and standing long jump."
+      },
+      {
+        "title": "Ross Baillie",
+        "text": "Ross Baillie (26 September 1977 – 18 June 1999) was a Scottish track and field athlete, older brother of Commonwealth Silver medal winner Chris Baillie.  Both his parents were also track and field athletes, father Hugh representing Great Britain at 400m, and mother Sheila being a former Scottish champion at 80m hurdles (superseded by the 100m hurdles since 1968).  Deemed by Colin Jackson to be his natural successor in the 110m hurdles event for Great Britain, he died at the age of 21.  Fittingly, since his death, the records set by Ross have been broken by his brother."
+      },
+      {
+        "title": "Oluwatobiloba Amusan",
+        "text": "Oluwatobiloba Ayomide Amusan (born April 23, 1997) is a Nigerian sprinter.  She claimed gold in the 100 metres hurdles event at the 2015 African Junior Athletics Championships in Addis Ababa.  In 2015, while making her All-Africa Games debut, she won gold in the 100 metres hurdles event at the 2015 All-Africa Games.  Her team mate, Lindsay Lindley was third.  She was also a silver medallist at the 2013 African Youth Championships in Warri."
+      }
+    ]
+  },
+  {
+    "qid": "hh20",
+    "difficulty": "hard",
+    "question": "Which organization presents the award in which Chris Noonan was nominated for his work in \"Babe?\"",
+    "gold_answer": "Academy of Motion Picture Arts and Sciences",
+    "context": [
+      {
+        "title": "New Orleans Film Society",
+        "text": "The New Orleans Film Society (NOFS) is a nonprofit arts organization located in New Orleans, Louisiana.  The organization presents and exhibits year-round film programming and events in addition to the annual New Orleans Film Festival."
+      },
+      {
+        "title": "Newswomen's Club of New York",
+        "text": "The Newswomen's Club of New York is a nonprofit organization that focuses on women working in the media in the New York City metropolitan area.  It was founded in 1922 as the New York Newspaper Woman’s Club and included such well-known individuals as Eleanor Roosevelt, Helen Rogers Reid and Anne O'Hare McCormick among its membership; it changed its name in 1971 to include members working in magazines and broadcast media.  The organization presents its Front Page Award annually to honor the most prominent achievements by women in journalism."
+      },
+      {
+        "title": "Chris Noonan",
+        "text": "Chris Noonan (born 14 November 1952) is a Sydney-based Australian filmmaker and actor best known for the family film \"Babe\" (1995), for which he was nominated for both the Academy Award for Best Director and Academy Award for Best Adapted Screenplay."
+      },
+      {
+        "title": "Alabama Broadcasters Association",
+        "text": "The Alabama Broadcasters Association (ABA) represents radio and television broadcasters across the U.S. state of Alabama.  It is affiliated with the National Association of Broadcasters.  Every year the organization presents the ABBY (Alabama's Best in Broadcasting Yearly) Awards.  The organization also has a Hall of Fame ."
+      }
+    ]
+  }
+]

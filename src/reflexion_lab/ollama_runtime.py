@@ -13,7 +13,7 @@ from typing import Any
 
 import requests
 
-from .prompts import ACTOR_SYSTEM, EVALUATOR_SYSTEM, REFLECTOR_SYSTEM
+from .prompts import ACTOR_SYSTEM, ACTOR_SYSTEM_WITH_COT, EVALUATOR_SYSTEM, REFLECTOR_SYSTEM
 from .schemas import JudgeResult, QAExample, ReflectionEntry
 from .utils import normalize_answer
 
@@ -129,12 +129,20 @@ def actor_answer(
     attempt_id: int,
     agent_type: str,
     reflection_memory: list[str],
+    previous_answers: list[str] | None = None,
 ) -> tuple[str, int, int]:
-    """Return (answer_text, token_count, latency_ms)."""
+    """Return (answer_text, token_count, latency_ms).
+
+    Improvements over v1:
+    - Uses CoT prompt for retry attempts (attempt >= 2) to force reasoning
+    - Includes previous wrong answers to prevent looping
+    - Escalates temperature on retries for diversity
+    """
     context_text = "\n\n".join(
         f"### {c.title}\n{c.text}" for c in example.context
     )
 
+    # Build reflection block
     reflection_block = ""
     if reflection_memory:
         reflection_block = (
@@ -143,22 +151,69 @@ def actor_answer(
             + "\n--- End Reflections ---\n"
         )
 
-    user_prompt = (
-        f"Question: {example.question}\n\n"
-        f"Context:\n{context_text}"
-        f"{reflection_block}\n\n"
-        f"Attempt: {attempt_id}/{3 if agent_type == 'reflexion' else 1}\n"
-        "Provide ONLY the final answer — no explanation."
-    )
+    # Build previous wrong answers block (anti-looping)
+    wrong_answers_block = ""
+    if previous_answers:
+        wrong_answers_block = (
+            "\n--- Previous Wrong Answers (DO NOT repeat these) ---\n"
+            + "\n".join(f"- {a}" for a in previous_answers)
+            + "\n--- End Wrong Answers ---\n"
+        )
 
-    result = _chat(ACTOR_SYSTEM, user_prompt)
-    answer = _clean_answer(result["content"])
+    # Choose prompt strategy based on attempt
+    use_cot = (attempt_id >= 2 and agent_type == "reflexion")
+
+    if use_cot:
+        # CoT prompt: force reasoning before answering
+        user_prompt = (
+            f"Question: {example.question}\n\n"
+            f"Context:\n{context_text}"
+            f"{reflection_block}"
+            f"{wrong_answers_block}\n\n"
+            f"Attempt: {attempt_id}/{3 if agent_type == 'reflexion' else 1}\n"
+            "IMPORTANT: Think step by step. First reason about each hop, "
+            "then give your answer.\n"
+            "Respond in this format:\n"
+            "Reasoning: <your chain of reasoning>\n"
+            "Answer: <the final answer>"
+        )
+        system_prompt = ACTOR_SYSTEM_WITH_COT
+    else:
+        # Standard prompt for first attempt
+        user_prompt = (
+            f"Question: {example.question}\n\n"
+            f"Context:\n{context_text}"
+            f"{reflection_block}\n\n"
+            f"Attempt: {attempt_id}/{3 if agent_type == 'reflexion' else 1}\n"
+            "Provide ONLY the final answer — no explanation."
+        )
+        system_prompt = ACTOR_SYSTEM
+
+    # Escalate temperature for retries to encourage diversity
+    temp = 0.3 if attempt_id == 1 else min(0.3 + (attempt_id - 1) * 0.2, 0.7)
+
+    result = _chat(system_prompt, user_prompt, temperature=temp)
+    answer = _clean_answer(result["content"], use_cot=use_cot)
     return answer, result["tokens"], result["latency_ms"]
 
 
-def _clean_answer(raw: str) -> str:
+def _clean_answer(raw: str, use_cot: bool = False) -> str:
     """Strip markdown, quotes, prefixes like 'Answer:' etc."""
-    text = raw.strip().strip('"').strip("'")
+    text = raw.strip()
+
+    # If CoT mode, extract only the Answer part
+    if use_cot:
+        # Look for "Answer:" line
+        answer_match = re.search(r"(?:^|\n)\s*Answer:\s*(.+)", text, re.IGNORECASE)
+        if answer_match:
+            text = answer_match.group(1).strip()
+        else:
+            # Fallback: take the last non-empty line
+            lines = [l.strip() for l in text.split("\n") if l.strip()]
+            if lines:
+                text = lines[-1]
+
+    text = text.strip('"').strip("'")
     # Remove common prefixes
     for prefix in ("Answer:", "Final Answer:", "The answer is", "A:"):
         if text.lower().startswith(prefix.lower()):
@@ -188,6 +243,14 @@ def evaluator(
             0,
             0,
         )
+
+    # Quick containment check — if gold is substring of predicted or vice versa
+    # e.g. "rock" in "indie rock", "Roman Catholic" ~ "Roman Catholicism"
+    gold_norm = normalize_answer(example.gold_answer)
+    pred_norm = normalize_answer(answer)
+    if gold_norm in pred_norm or pred_norm in gold_norm:
+        # Let the LLM evaluator decide, but hint at potential match
+        pass
 
     user_prompt = (
         f"Question: {example.question}\n"
@@ -234,21 +297,44 @@ def reflector(
     example: QAExample,
     attempt_id: int,
     judge: JudgeResult,
+    predicted_answer: str = "",
+    previous_answers: list[str] | None = None,
 ) -> tuple[ReflectionEntry, int, int]:
-    """Return (ReflectionEntry, token_count, latency_ms)."""
+    """Return (ReflectionEntry, token_count, latency_ms).
+
+    Improvements over v1:
+    - Includes the wrong answer in the prompt so reflector knows what to avoid
+    - Includes all previous wrong answers to prevent suggestion loops
+    - Asks reflector to propose a specific candidate answer
+    """
     context_text = "\n\n".join(
         f"### {c.title}\n{c.text}" for c in example.context
     )
+
+    # Build previous answers section
+    prev_answers_text = ""
+    if previous_answers:
+        prev_answers_text = (
+            f"\nAll previous wrong answers: {', '.join(previous_answers)}\n"
+            "You MUST suggest a DIFFERENT answer than any of these.\n"
+        )
 
     user_prompt = (
         f"Question: {example.question}\n"
         f"Context:\n{context_text}\n\n"
         f"Attempt #{attempt_id} was scored {judge.score}/1.\n"
+        f"Your answer was: \"{predicted_answer}\"\n"
         f"Evaluator reason: {judge.reason}\n"
         f"Missing evidence: {judge.missing_evidence}\n"
-        f"Spurious claims: {judge.spurious_claims}\n\n"
+        f"Spurious claims: {judge.spurious_claims}\n"
+        f"{prev_answers_text}\n"
+        "CRITICAL: Analyse why the answer above is wrong. "
+        "Look at what the question is REALLY asking — it may ask about a "
+        "different aspect than you focused on. Check if the question text "
+        "itself contains the answer clue.\n\n"
         "Respond ONLY with a JSON object — no markdown fences:\n"
-        '{"failure_reason": "...", "lesson": "...", "next_strategy": "..."}'
+        '{"failure_reason": "...", "wrong_answer": "...", "lesson": "...", '
+        '"next_strategy": "...", "candidate_answer": "your best guess"}'
     )
 
     result = _chat(REFLECTOR_SYSTEM, user_prompt, temperature=0.4)
@@ -262,11 +348,17 @@ def _parse_reflection(raw: str, attempt_id: int, judge: JudgeResult) -> Reflecti
     if json_match:
         try:
             data = json.loads(json_match.group())
+            # Build next_strategy that includes the candidate answer
+            next_strategy = str(data.get("next_strategy", "Re-read context carefully."))
+            candidate = data.get("candidate_answer", "")
+            if candidate and candidate.lower() not in next_strategy.lower():
+                next_strategy += f" Consider answering: \"{candidate}\"."
+
             return ReflectionEntry(
                 attempt_id=attempt_id,
                 failure_reason=str(data.get("failure_reason", judge.reason)),
                 lesson=str(data.get("lesson", "Review multi-hop reasoning steps.")),
-                next_strategy=str(data.get("next_strategy", "Re-read context carefully.")),
+                next_strategy=next_strategy,
             )
         except (json.JSONDecodeError, ValueError, TypeError):
             pass

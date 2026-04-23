@@ -5,6 +5,7 @@ from typing import Literal
 from rich import print as rprint
 
 from .schemas import AttemptTrace, QAExample, ReflectionEntry, RunRecord
+from .utils import normalize_answer
 
 # Import runtime based on environment — default to real Ollama runtime
 try:
@@ -34,6 +35,7 @@ class BaseAgent:
         reflection_memory: list[str] = []
         reflections: list[ReflectionEntry] = []
         traces: list[AttemptTrace] = []
+        previous_answers: list[str] = []   # Track all wrong answers
         final_answer = ""
         final_score = 0
         total_tokens = 0
@@ -48,7 +50,8 @@ class BaseAgent:
             # ---------- Actor ----------
             if _RUNTIME == "ollama":
                 answer, actor_tokens, actor_lat = actor_answer(
-                    example, attempt_id, self.agent_type, reflection_memory
+                    example, attempt_id, self.agent_type, reflection_memory,
+                    previous_answers=previous_answers if previous_answers else None,
                 )
             else:
                 answer = actor_answer(
@@ -59,6 +62,17 @@ class BaseAgent:
                 )
                 actor_lat = 160 + (attempt_id * 40) + (
                     90 if self.agent_type == "reflexion" else 0
+                )
+
+            # ---------- Looping detection ----------
+            # If agent gives same answer as before, log it but still evaluate
+            answer_norm = normalize_answer(answer)
+            is_repeat = any(
+                normalize_answer(pa) == answer_norm for pa in previous_answers
+            )
+            if is_repeat and attempt_id < self.max_attempts:
+                rprint(
+                    f"    [yellow]⚠ repeated answer detected: {answer}[/yellow]"
                 )
 
             # ---------- Evaluator ----------
@@ -91,6 +105,9 @@ class BaseAgent:
                 rprint(f"    [green]✓ correct[/green]")
                 break
 
+            # Track this wrong answer
+            previous_answers.append(answer)
+
             # ---------- Reflector (only for reflexion agent with remaining attempts) ----------
             if (
                 self.agent_type == "reflexion"
@@ -98,7 +115,9 @@ class BaseAgent:
             ):
                 if _RUNTIME == "ollama":
                     ref_entry, ref_tokens, ref_lat = reflector(
-                        example, attempt_id, judge
+                        example, attempt_id, judge,
+                        predicted_answer=answer,
+                        previous_answers=previous_answers,
                     )
                     step_tokens += ref_tokens
                     step_latency += ref_lat

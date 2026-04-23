@@ -1,25 +1,35 @@
 """
-Download HotpotQA data from HuggingFace and convert to the lab's JSON format.
-No `datasets` library needed — uses only `requests` + stdlib.
+Download HotpotQA data split by difficulty level (easy / medium / hard).
+Fetches from HuggingFace API — no `datasets` library needed.
+
+Output:
+    data/hotpot_easy.json   (~20 examples)
+    data/hotpot_medium.json (~20 examples)
+    data/hotpot_hard.json   (~20 examples)
+    data/hotpot_full.json   (all combined, 60+ examples)
 
 Usage:
-    python scripts/download_hotpotqa.py --num 120 --out data/hotpot_full.json
+    python scripts/download_hotpotqa.py
+    python scripts/download_hotpotqa.py --per-level 40
 """
 from __future__ import annotations
 
 import json
 import random
 import sys
+from collections import defaultdict
 from pathlib import Path
 
 import requests
 
-# HuggingFace dataset API for HotpotQA (distractor setting, validation split)
+# ---------------------------------------------------------------------------
+# HuggingFace Datasets Server API
+# ---------------------------------------------------------------------------
 HF_API_URL = "https://datasets-server.huggingface.co/rows"
 DATASET = "hotpotqa/hotpot_qa"
 CONFIG = "distractor"
-SPLIT = "validation"
-MAX_PER_REQUEST = 100  # HF API limit per request
+SPLIT = "train"  # train split has easy/medium/hard mix
+MAX_PER_REQUEST = 100
 
 
 def fetch_rows(offset: int, length: int) -> list[dict]:
@@ -33,7 +43,7 @@ def fetch_rows(offset: int, length: int) -> list[dict]:
             "offset": offset,
             "length": min(length, MAX_PER_REQUEST),
         },
-        timeout=30,
+        timeout=60,
     )
     resp.raise_for_status()
     data = resp.json()
@@ -41,7 +51,7 @@ def fetch_rows(offset: int, length: int) -> list[dict]:
 
 
 def classify_difficulty(level: str) -> str:
-    """Map HotpotQA level to our difficulty enum."""
+    """Map HotpotQA level to difficulty."""
     level = (level or "").lower().strip()
     if level == "easy":
         return "easy"
@@ -55,7 +65,7 @@ def convert_row(row: dict, idx: int) -> dict | None:
     """Convert a HotpotQA row to our QAExample JSON format."""
     question = row.get("question", "").strip()
     answer = row.get("answer", "").strip()
-    level = row.get("level", "medium")
+    level = row.get("level", "hard")
 
     if not question or not answer:
         return None
@@ -74,15 +84,14 @@ def convert_row(row: dict, idx: int) -> dict | None:
         if text:
             context_chunks.append({"title": title, "text": text})
 
-    # Need at least 2 context chunks for multi-hop
     if len(context_chunks) < 2:
         return None
 
-    # Limit to first 4 context chunks to keep prompts manageable
+    # Limit to first 4 chunks
     context_chunks = context_chunks[:4]
 
     return {
-        "qid": f"hq{idx}",
+        "qid": "",  # will be assigned later
         "difficulty": classify_difficulty(level),
         "question": question,
         "gold_answer": answer,
@@ -93,65 +102,102 @@ def convert_row(row: dict, idx: int) -> dict | None:
 def main():
     import argparse
 
-    parser = argparse.ArgumentParser(description="Download HotpotQA data")
-    parser.add_argument("--num", type=int, default=120,
-                        help="Number of examples to download (default: 120)")
-    parser.add_argument("--out", type=str, default="data/hotpot_full.json",
-                        help="Output JSON file path")
+    parser = argparse.ArgumentParser(description="Download HotpotQA data by difficulty")
+    parser.add_argument("--per-level", type=int, default=20,
+                        help="Number of examples per difficulty level (default: 20)")
+    parser.add_argument("--out-dir", type=str, default="data",
+                        help="Output directory (default: data)")
     parser.add_argument("--seed", type=int, default=42,
                         help="Random seed for shuffling")
     args = parser.parse_args()
 
-    target = args.num
-    out_path = Path(args.out)
+    target_per_level = args.per_level
+    out_dir = Path(args.out_dir)
+    out_dir.mkdir(parents=True, exist_ok=True)
 
-    print(f"Downloading {target} HotpotQA examples...")
-    print(f"Source: {DATASET} ({CONFIG}/{SPLIT})")
+    print(f"🎯 Target: {target_per_level} examples per difficulty level")
+    print(f"📦 Source: {DATASET} ({CONFIG}/{SPLIT})\n")
 
-    # Fetch more than needed to account for filtered-out rows
-    fetch_total = min(target * 2, 500)
-    all_rows = []
+    # Collect examples by difficulty
+    by_diff: dict[str, list[dict]] = defaultdict(list)
+    offset = 0
+    total_fetched = 0
+    max_fetch = 1000  # safety limit
 
-    for offset in range(0, fetch_total, MAX_PER_REQUEST):
-        batch_size = min(MAX_PER_REQUEST, fetch_total - offset)
-        print(f"  Fetching rows {offset}..{offset + batch_size}...")
-        try:
-            rows = fetch_rows(offset, batch_size)
-            all_rows.extend(rows)
-        except Exception as e:
-            print(f"  ⚠ Error at offset {offset}: {e}")
+    while offset < max_fetch:
+        # Check if we have enough of each
+        have_enough = all(
+            len(by_diff[d]) >= target_per_level
+            for d in ("easy", "medium", "hard")
+        )
+        if have_enough:
             break
 
-    print(f"  Fetched {len(all_rows)} raw rows")
+        batch_size = MAX_PER_REQUEST
+        print(f"  Fetching rows {offset}..{offset + batch_size}... ", end="")
+        try:
+            rows = fetch_rows(offset, batch_size)
+            if not rows:
+                print("no more rows")
+                break
+        except Exception as e:
+            print(f"⚠ Error: {e}")
+            break
 
-    # Convert and filter
-    examples = []
-    for i, row in enumerate(all_rows):
-        ex = convert_row(row, i + 1)
-        if ex:
-            examples.append(ex)
+        batch_converted = 0
+        for row in rows:
+            ex = convert_row(row, 0)
+            if ex:
+                by_diff[ex["difficulty"]].append(ex)
+                batch_converted += 1
 
-    print(f"  Converted {len(examples)} valid examples")
+        total_fetched += len(rows)
+        counts = {d: len(by_diff[d]) for d in ("easy", "medium", "hard")}
+        print(f"got {batch_converted} valid → easy={counts['easy']}, medium={counts['medium']}, hard={counts['hard']}")
 
-    # Shuffle and trim to target
+        offset += batch_size
+
+    print(f"\n📊 Total rows fetched: {total_fetched}")
+
+    # Shuffle and trim each level
     random.seed(args.seed)
-    random.shuffle(examples)
-    examples = examples[:target]
+    all_combined = []
 
-    # Re-index qids
-    for i, ex in enumerate(examples, 1):
+    for difficulty in ("easy", "medium", "hard"):
+        examples = by_diff[difficulty]
+        random.shuffle(examples)
+        examples = examples[:target_per_level]
+
+        # Assign qids
+        prefix = {"easy": "he", "medium": "hm", "hard": "hh"}[difficulty]
+        for i, ex in enumerate(examples, 1):
+            ex["qid"] = f"{prefix}{i}"
+
+        # Save individual file
+        file_path = out_dir / f"hotpot_{difficulty}.json"
+        file_path.write_text(
+            json.dumps(examples, indent=2, ensure_ascii=False),
+            encoding="utf-8",
+        )
+        print(f"  ✅ Saved {len(examples):3d} {difficulty:6s} examples → {file_path}")
+        all_combined.extend(examples)
+
+    # Re-index and save combined file
+    random.shuffle(all_combined)
+    for i, ex in enumerate(all_combined, 1):
         ex["qid"] = f"hq{i}"
 
-    # Ensure difficulty distribution
-    diff_counts = {}
-    for ex in examples:
-        diff_counts[ex["difficulty"]] = diff_counts.get(ex["difficulty"], 0) + 1
-    print(f"  Difficulty distribution: {diff_counts}")
-
-    # Save
-    out_path.parent.mkdir(parents=True, exist_ok=True)
-    out_path.write_text(json.dumps(examples, indent=2, ensure_ascii=False), encoding="utf-8")
-    print(f"\n✅ Saved {len(examples)} examples to {out_path}")
+    combined_path = out_dir / "hotpot_full.json"
+    combined_path.write_text(
+        json.dumps(all_combined, indent=2, ensure_ascii=False),
+        encoding="utf-8",
+    )
+    diff_counts = defaultdict(int)
+    for ex in all_combined:
+        diff_counts[ex["difficulty"]] += 1
+    print(f"  ✅ Saved {len(all_combined):3d} combined examples → {combined_path}")
+    print(f"\n📈 Final distribution: {dict(diff_counts)}")
+    print(f"📁 Total examples: {len(all_combined)}")
 
 
 if __name__ == "__main__":
